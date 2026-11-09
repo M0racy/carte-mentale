@@ -177,21 +177,33 @@ window.CARTE = {
         },
         {
           "n": "Cathédrale",
-          "s": "open",
-          "l": "exploration en cours",
-          "d": "Atteinte depuis les marécages ; combats contre des échos rouges puis des doubles à l'apparence identique au personnage",
+          "s": "ok",
+          "l": "épreuves terminées",
+          "d": "Atteinte depuis les marécages : doubles du personnage, culte apparent de la renarde et épreuves de combat terminées",
           "sub": [
             "Certaines copies semblent vouer un culte à une statue représentant la renarde blanche",
             "Le joueur observe des crânes en très grand nombre",
             "Des copies semblent utiliser l'énergie d'une créature rappelant les grands renards exploités",
-            "Ascenseur rose emprunté ; destination et suite non encore explorées"
+            "Après l'ascenseur rose, affrontements successifs : gardes fantômes, grenouilles, gardes-pierres tirant des lasers, deux mini-boss, squelettes et sorciers",
+            "Toutes ces épreuves ont été remportées ; une couronne a été obtenue",
+            "La couronne permet une nouvelle capacité de déplacement : le dash"
           ]
         },
         {
           "n": "Ascenseur rose de la Cathédrale",
-          "s": "open",
+          "s": "ok",
           "l": "emprunté",
-          "d": "Ascenseur emprunté à la fin du compte rendu ; ce qui se trouve après reste à découvrir"
+          "d": "Ascenseur ayant précédé la fin de l'exploration de la cathédrale et ses épreuves successives"
+        },
+        {
+          "n": "Autel aux objets",
+          "s": "open",
+          "l": "objets accessibles",
+          "d": "Après avoir obtenu la couronne, le joueur a atteint un autel et découvert que le dash lui permet de rejoindre les objets qui s'y trouvent pour les récupérer",
+          "sub": [
+            "Localisation et lien exacts avec les autres autels à préciser",
+            "Des objets auparavant hors d'atteinte deviennent accessibles grâce à la nouvelle capacité"
+          ]
         }
       ]
     },
@@ -252,6 +264,18 @@ window.CARTE = {
           "s": "ok",
           "l": "trois clés déposées",
           "d": "Les trois clés ont été posées dans le dispositif : de prime abord, seul un cristal semble avoir été libéré. Conséquences encore mystérieuses."
+        },
+        {
+          "n": "Épreuves de la Cathédrale",
+          "s": "ok",
+          "l": "vaincues",
+          "d": "Combats successifs remportés : gardes fantômes, grenouilles, gardes-pierres laser, deux mini-boss, squelettes et sorciers"
+        },
+        {
+          "n": "Couronne et dash",
+          "s": "ok",
+          "l": "obtenus",
+          "d": "Nouvelle mobilité permettant de franchir des distances et d'atteindre des objets à l'autel"
         },
         {
           "n": "Rencontre après les trois clés",
@@ -334,6 +358,12 @@ window.CARTE = {
           "d": "Sert de grappin, permet de s'accrocher aux points prévus et d'explorer d'autres endroits",
           "s": "ok",
           "l": "récupérée"
+        },
+        {
+          "n": "Couronne",
+          "s": "ok",
+          "l": "récupérée",
+          "d": "Obtenue à l'issue des épreuves de la Cathédrale ; confère la capacité de dash"
         }
       ]
     },
@@ -400,6 +430,16 @@ window.CARTE = {
           "sub": [
             "Hypothèses : mécanisme de défense, ciblage d'une espèce ou d'une catégorie de menace",
             "Leurs créateurs et leur programmation ne sont pas identifiés"
+          ]
+        },
+        {
+          "n": "Dash",
+          "s": "ok",
+          "l": "débloqué",
+          "d": "Déplacement rapide obtenu grâce à la couronne ; permet notamment de rejoindre et récupérer des objets situés dans un autel",
+          "sub": [
+            "Nouvelle possibilité de revisiter des endroits jusque-là inaccessibles",
+            "Nécessité de tester ses autres applications sans supposer qu'elles sont toutes connues"
           ]
         }
       ]
@@ -838,6 +878,10 @@ window.CARTE = {
         {
           "n": "Pourquoi des copies semblent-elles exploiter un grand renard ?",
           "d": "Statue vénérée, énergie exploitée et crânes nombreux dans la Cathédrale ; lien avec les Charognards inconnu"
+        },
+        {
+          "n": "Quels autres endroits le dash permet-il d'atteindre ?",
+          "d": "L'autel montre déjà que cette nouvelle capacité change l'accès à certains objets ; autres utilisations à découvrir"
         }
       ]
     },
@@ -906,6 +950,10 @@ window.CARTE = {
         {
           "n": "Doute sur sa propre existence",
           "d": "Le joueur se demande s'il est lui-même un double et si chaque mort ramène le même être ou une copie ; peur d'avoir été manipulé"
+        },
+        {
+          "n": "Couronne et découverte du dash",
+          "d": "Émerveillement et excitation devant la possibilité de rejoindre enfin, depuis un autel, des objets auparavant inaccessibles (« C'est dingue »)"
         }
       ]
     }

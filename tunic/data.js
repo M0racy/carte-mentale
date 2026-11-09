@@ -212,8 +212,8 @@ window.CARTE = {
         {
           "n": "Retour au dispositif doré",
           "s": "open",
-          "l": "prévu",
-          "d": "Prochaine étape envisagée : retourner à la porte dorée pour utiliser les clés"
+          "l": "en cours",
+          "d": "Le joueur est retourné avec enthousiasme vers la salle des clés ; il suppose que la troisième gemme pourrait libérer la renarde, sans avoir encore vérifié."
         },
         {
           "n": "Quatre tours du désert",
@@ -368,7 +368,8 @@ window.CARTE = {
             "Statue géante dans le désert",
             "Rencontrée dans l'espace parallèle : hochements de tête, applaudissements, approbation",
             "Le joueur lui fait confiance mais redoute qu'elle appartienne au groupe exploitant les renards",
-            "Son identité, son peuple et son rôle exact restent inconnus"
+            "Son identité, son peuple et son rôle exact restent inconnus",
+            "Nouvelle hypothèse : elle serait peut-être la mère du personnage, en raison de sa taille, de leur ressemblance et de gestes perçus comme affectueux"
           ]
         },
         {
@@ -580,6 +581,20 @@ window.CARTE = {
           "s": "open",
           "l": "à vérifier",
           "d": "Hypothèse fondée sur les proportions gigantesques du mobilier et la ressemblance des représentations avec les créatures des capsules"
+        },
+        {
+          "h": "H18",
+          "n": "La renarde blanche pourrait être ma mère",
+          "s": "open",
+          "l": "à vérifier",
+          "d": "Après la rencontre dans l'espace parallèle, le joueur envisage un lien familial : ressemblance de renards, différence de taille compatible avec adulte et enfant, gestes interprétés comme affectueux. Aucun lien de parenté établi."
+        },
+        {
+          "h": "H19",
+          "n": "Déposer la troisième clé pourrait libérer la renarde blanche",
+          "s": "open",
+          "l": "à vérifier",
+          "d": "Hypothèse formulée en retournant au temple avec les trois clés ; le dispositif n'a pas encore été activé dans le récit actuel."
         }
       ]
     },
@@ -642,7 +657,8 @@ window.CARTE = {
           "sub": [
             "Le joueur espère qu'elle est une victime ou une opposante, mais craint qu'elle participe à l'exploitation",
             "Espèce, intentions et raison de son enfermement inconnues",
-            "Le personnage est-il un jeune grand renard, un individu d'une autre taille ou d'une autre espèce ?"
+            "Le personnage est-il un jeune grand renard, un individu d'une autre taille ou d'une autre espèce ?",
+            "H18 : existe-t-il un lien mère-enfant entre la renarde blanche et le protagoniste ?"
           ]
         },
         {
@@ -712,6 +728,10 @@ window.CARTE = {
         {
           "n": "Trois clés réunies",
           "d": "Impression, et non pression, de passer à côté de quelque chose ; conviction personnelle que le récit comporte plusieurs couches"
+        },
+        {
+          "n": "Hypothèse d'un lien mère-enfant",
+          "d": "Émotion profonde, distincte de l'excitation intellectuelle ; frustration de ne pas y avoir pensé plus tôt ; désir intense de libérer la renarde, au point de courir vers le temple"
         }
       ]
     }

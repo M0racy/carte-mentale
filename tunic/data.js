@@ -15,7 +15,10 @@ window.CARTE = {
       "items": [
         {
           "n": "Plage",
-          "d": "Lieu du réveil ; passages qui la longent"
+          "d": "Lieu du réveil ; passages qui la longent",
+          "sub": [
+            "Après avoir été vaincu d'un seul coup par la renarde, le personnage réapparaît au lieu de départ dans un état visuel semblable à celui de l'espace parallèle"
+          ]
         },
         {
           "n": "Forêt",
@@ -53,7 +56,22 @@ window.CARTE = {
         },
         {
           "n": "Temple de la porte dorée",
-          "d": "Sanctuaire, dispositif central"
+          "d": "Les trois clés y ont été déposées ; un cristal semble se libérer, sans autre effet immédiatement évident",
+          "sub": [
+            "La renarde disparaît ensuite de son lieu de détention dans l'espace parallèle",
+            "Le joueur est parti vérifier sa présence dans la salle de l'épée"
+          ]
+        },
+        {
+          "n": "Salle de l'épée",
+          "s": "open",
+          "l": "rencontre troublante",
+          "d": "La renarde blanche s'y trouve après le dépôt des trois clés, auprès de l'épée ; elle se met à attaquer le personnage",
+          "sub": [
+            "Défaite en un seul coup",
+            "Réapparition sur la plage dans un état semblable à celui du monde parallèle",
+            "Le joueur veut tester les conséquences de ce changement"
+          ]
         },
         {
           "n": "Sanctuaire de la forêt",
@@ -72,7 +90,10 @@ window.CARTE = {
         },
         {
           "n": "Espace parallèle",
-          "d": "Relie les carrés jaunes"
+          "d": "Relie les carrés jaunes",
+          "sub": [
+            "Après le dépôt des trois clés, la renarde n'est plus à son emplacement habituel"
+          ]
         },
         {
           "n": "Pièce fermée à quatre murs",
@@ -211,9 +232,15 @@ window.CARTE = {
         },
         {
           "n": "Retour au dispositif doré",
+          "s": "ok",
+          "l": "trois clés déposées",
+          "d": "Les trois clés ont été posées dans le dispositif : de prime abord, seul un cristal semble avoir été libéré. Conséquences encore mystérieuses."
+        },
+        {
+          "n": "Rencontre après les trois clés",
           "s": "open",
-          "l": "en cours",
-          "d": "Le joueur est retourné avec enthousiasme vers la salle des clés ; il suppose que la troisième gemme pourrait libérer la renarde, sans avoir encore vérifié."
+          "l": "conséquences à explorer",
+          "d": "La renarde a quitté son emplacement habituel dans l'espace parallèle ; retrouvée dans la salle de l'épée, elle attaque et vainc le personnage d'un seul coup."
         },
         {
           "n": "Quatre tours du désert",
@@ -274,7 +301,10 @@ window.CARTE = {
           "n": "Épée bleue flottante",
           "s": "open",
           "l": "aperçue",
-          "d": "Aussi visible sur le menu du jeu"
+          "d": "Aussi visible sur le menu du jeu",
+          "sub": [
+            "Après les trois clés, la renarde apparaît dans la salle de l'épée"
+          ]
         },
         {
           "n": "Objet derrière les batraciens",
@@ -310,7 +340,11 @@ window.CARTE = {
         },
         {
           "n": "Mort",
-          "d": "Séquence particulière la première fois ; essence récupérable sur place"
+          "d": "Séquence particulière la première fois ; essence récupérable sur place",
+          "sub": [
+            "Après une attaque de la renarde, retour au lieu de départ sous une apparence semblable à celle observée dans l'espace parallèle",
+            "La signification et les mécanismes de cet état restent à tester"
+          ]
         },
         {
           "n": "Prosternation",
@@ -369,7 +403,10 @@ window.CARTE = {
             "Rencontrée dans l'espace parallèle : hochements de tête, applaudissements, approbation",
             "Le joueur lui fait confiance mais redoute qu'elle appartienne au groupe exploitant les renards",
             "Son identité, son peuple et son rôle exact restent inconnus",
-            "Nouvelle hypothèse : elle serait peut-être la mère du personnage, en raison de sa taille, de leur ressemblance et de gestes perçus comme affectueux"
+            "Nouvelle hypothèse : elle serait peut-être la mère du personnage, en raison de sa taille, de leur ressemblance et de gestes perçus comme affectueux",
+            "Après le dépôt des trois clés, absente de l'espace parallèle à l'endroit où elle était retenue",
+            "Retrouvée près de l'épée dans une autre salle ; elle attaque le personnage et le vainc en un coup",
+            "Son identité, ses motivations et la nature de cette attaque restent inconnues"
           ]
         },
         {
@@ -492,11 +529,13 @@ window.CARTE = {
         },
         {
           "h": "H2",
-          "n": "La renarde l'a ramené à la vie pour une mission"
+          "n": "La renarde l'a ramené à la vie pour une mission",
+          "d": "Hypothèse d'une mission confiée par la renarde ; son attaque après le dépôt des trois clés rend les intentions supposées beaucoup plus incertaines."
         },
         {
           "h": "H3",
-          "n": "Mission : libérer la renarde, réunir les clés, ou les deux"
+          "n": "Mission : libérer la renarde, réunir les clés, ou les deux",
+          "d": "Le dispositif des trois clés a été activé, mais le rôle du personnage et la nature de la libération restent difficiles à interpréter après l'attaque de la renarde."
         },
         {
           "h": "H4",
@@ -587,14 +626,14 @@ window.CARTE = {
           "n": "La renarde blanche pourrait être ma mère",
           "s": "open",
           "l": "à vérifier",
-          "d": "Après la rencontre dans l'espace parallèle, le joueur envisage un lien familial : ressemblance de renards, différence de taille compatible avec adulte et enfant, gestes interprétés comme affectueux. Aucun lien de parenté établi."
+          "d": "Après la rencontre dans l'espace parallèle, le joueur envisage un lien familial : ressemblance de renards, différence de taille compatible avec adulte et enfant, gestes interprétés comme affectueux. Aucun lien de parenté établi. Après le dépôt des clés, elle attaque le personnage : ce fait trouble le joueur sans suffire à démontrer ou réfuter leur parenté."
         },
         {
           "h": "H19",
           "n": "Déposer la troisième clé pourrait libérer la renarde blanche",
           "s": "open",
-          "l": "à vérifier",
-          "d": "Hypothèse formulée en retournant au temple avec les trois clés ; le dispositif n'a pas encore été activé dans le récit actuel."
+          "l": "partiellement étayée",
+          "d": "Les trois clés ont été déposées ; la renarde n'est plus dans son ancien lieu de détention et apparaît dans la salle de l'épée. Sa libération effective, le rôle du cristal et les raisons de son attaque restent à comprendre."
         }
       ]
     },
@@ -680,6 +719,18 @@ window.CARTE = {
         {
           "n": "Réunir les trois clés marque-t-il vraiment la fin de l'histoire ?",
           "d": "Impression persistante de mystères non résolus ; prochaine étape au temple doré"
+        },
+        {
+          "n": "Pourquoi la renarde attaque-t-elle après le dépôt des trois clés ?",
+          "d": "Retrouvée dans la salle de l'épée ; raison et signification de la confrontation inconnues"
+        },
+        {
+          "n": "Qu'est-ce qui a changé après le dépôt des trois clés ?",
+          "d": "Un cristal semble libéré, la renarde n'est plus dans sa prison habituelle et une rencontre a lieu près de l'épée"
+        },
+        {
+          "n": "Que signifie le nouvel état du personnage sur la plage ?",
+          "d": "Après la défaite face à la renarde, retour à l'endroit du début sous une apparence semblable au monde parallèle ; tests à effectuer"
         }
       ]
     },
@@ -732,6 +783,10 @@ window.CARTE = {
         {
           "n": "Hypothèse d'un lien mère-enfant",
           "d": "Émotion profonde, distincte de l'excitation intellectuelle ; frustration de ne pas y avoir pensé plus tôt ; désir intense de libérer la renarde, au point de courir vers le temple"
+        },
+        {
+          "n": "La renarde attaque après les trois clés",
+          "d": "Très grand trouble : après avoir espéré la libérer et imaginé un lien maternel, le joueur découvre son absence au lieu de détention, la retrouve près de l'épée puis se fait vaincre en un coup ; envie immédiate de tester ce qui a changé"
         }
       ]
     }

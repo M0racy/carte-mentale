@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mon site</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+:root{--bg:#eef1f3;--panel:#fff;--ink:#1b2530;--muted:#5b6875;--line:#c9d1d8;--gold:#a77a12}
+@media (prefers-color-scheme:dark){:root{--bg:#10161c;--panel:#18212a;--ink:#e4e9ee;--muted:#93a1ae;--line:#2e3a45;--gold:#e0b44a;color-scheme:dark}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 "Atkinson Hyperlegible",system-ui,sans-serif;padding:56px max(16px,env(safe-area-inset-right)) 56px max(16px,env(safe-area-inset-left))}
+main{max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+h1{font:400 2.2rem "Marcellus",Georgia,serif;margin:0;letter-spacing:.03em}
+p{margin:0;color:var(--muted)}
+ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+a.card{display:block;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px;color:inherit;text-decoration:none}
+a.card:hover,a.card:focus-visible{border-color:var(--gold);outline:none}
+a.card strong{display:block;font:400 1.2rem "Marcellus",Georgia,serif;color:var(--gold)}
+a.card span{color:var(--muted);font-size:.92rem}
+</style>
+</head>
+<body>
+<main>
+  <header><h1>Mon site</h1><p>Mes projets et carnets.</p></header>
+  <ul>
+    <li><a class="card" href="tunic/"><strong>Carte mentale Tunic</strong><span>Mon exploration du jeu : lieux, objets, mécaniques, hypothèses.</span></a></li>
+  </ul>
+</main>
+</body>
+</html>

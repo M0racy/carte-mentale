@@ -90,9 +90,13 @@ window.CARTE = {
         },
         {
           "n": "Espace parallèle",
-          "d": "Relie les carrés jaunes",
+          "d": "Réseau de voyage entre les carrés jaunes, transformé après la confrontation avec la renarde",
           "sub": [
-            "Après le dépôt des trois clés, la renarde n'est plus à son emplacement habituel"
+            "Après le dépôt des trois clés, la renarde n'est plus à son emplacement habituel",
+            "Nouvelles traces d'énergie dangereuse, rappelant celle de la mine et nécessitant un masque",
+            "Présence de fantômes semblables à l'état actuel du personnage",
+            "Fragments de paroles compréhensibles : « Avatar imbécile », allusion possible à une quatrième clé, mention d'un engin de siège",
+            "Le sens exact de leurs paroles et du changement de monde reste inconnu"
           ]
         },
         {
@@ -164,17 +168,30 @@ window.CARTE = {
           "n": "Ancien cimetière du marécage",
           "s": "open",
           "l": "en partie exploré",
-          "d": "Une nouvelle page du manuel décrit une région très dangereuse et évoque des terres intérieures réservées aux fantômes",
+          "d": "Région du marécage partiellement explorée ; passage vers la Cathédrale. Le manuel y évoque les fantômes et un danger extrême",
           "sub": [
             "Illustration d'une tête ressemblant au personnage, à l'apparence partiellement squelettique",
-            "Le personnage a déjà parcouru une partie de cette région ; accès aux terres intérieures non établi"
+            "Le personnage a déjà parcouru une partie de cette région ; accès aux terres intérieures non établi",
+            "La Cathédrale a été trouvée en poursuivant l'exploration des marécages"
           ]
         },
         {
           "n": "Cathédrale",
-          "s": "no",
-          "l": "piste du manuel",
-          "d": "Lieu mentionné parmi les nouvelles pistes d'exploration, pas encore visité d'après le récit"
+          "s": "open",
+          "l": "exploration en cours",
+          "d": "Atteinte depuis les marécages ; combats contre des échos rouges puis des doubles à l'apparence identique au personnage",
+          "sub": [
+            "Certaines copies semblent vouer un culte à une statue représentant la renarde blanche",
+            "Le joueur observe des crânes en très grand nombre",
+            "Des copies semblent utiliser l'énergie d'une créature rappelant les grands renards exploités",
+            "Ascenseur rose emprunté ; destination et suite non encore explorées"
+          ]
+        },
+        {
+          "n": "Ascenseur rose de la Cathédrale",
+          "s": "open",
+          "l": "emprunté",
+          "d": "Ascenseur emprunté à la fin du compte rendu ; ce qui se trouve après reste à découvrir"
         }
       ]
     },
@@ -347,6 +364,14 @@ window.CARTE = {
           ]
         },
         {
+          "n": "Nouvel état et fantômes",
+          "d": "Après la défaite contre la renarde, le personnage apparaît sur la plage dans un état semblable à celui des fantômes",
+          "sub": [
+            "Le monde parallèle a changé ; ses fantômes sont désormais visibles et certaines paroles deviennent partiellement compréhensibles",
+            "Question : après chaque mort, est-ce le même personnage qui revient ou une copie ?"
+          ]
+        },
+        {
           "n": "Prosternation",
           "d": "Active structures, tours, statues, carrés jaunes"
         },
@@ -390,7 +415,31 @@ window.CARTE = {
           "d": "Petit renard aux airs de fennec, réveillé sur la plage ; porte un masque pour se protéger des émanations de la mine",
           "sub": [
             "Taille et espèce encore incertaines : jeune grand renard, adulte plus petit ou autre espèce ?",
-            "Représentation de sa tête sous un aspect partiellement squelettique dans une page sur le cimetière"
+            "Représentation de sa tête sous un aspect partiellement squelettique dans une page sur le cimetière",
+            "Après la confrontation avec la renarde, son nouvel état ressemble visuellement à celui des fantômes du monde parallèle",
+            "À la Cathédrale, rencontre des doubles rouges et des copies à son image"
+          ]
+        },
+        {
+          "n": "Fantômes du monde parallèle",
+          "d": "Apparus après le dépôt des clés et la défaite face à la renarde ; ressemblent au personnage dans son état actuel",
+          "sub": [
+            "Certains fragments de leurs paroles deviennent compréhensibles",
+            "Mots entendus : « Avatar imbécile », éventuelle quatrième clé et engin de siège",
+            "Référent exact de ces propos encore incertain"
+          ]
+        },
+        {
+          "n": "Échos rouges du personnage",
+          "d": "Adversaires rouges lui ressemblant, rencontrés dans la Cathédrale"
+        },
+        {
+          "n": "Copies conformes du personnage",
+          "d": "Adversaires à l'apparence identique au protagoniste, rencontrés dans la Cathédrale",
+          "sub": [
+            "Plusieurs semblent vénérer une statue de la renarde blanche",
+            "Présence de nombreux crânes dans les environs",
+            "Le joueur se demande s'il est lui-même l'une de ces copies"
           ]
         },
         {
@@ -494,7 +543,9 @@ window.CARTE = {
           "d": "Observation d'un grand nombre de créatures enfermées ; au moins une hurle et se tord avant son placement dans une capsule",
           "sub": [
             "Le joueur interprète le dispositif comme une exploitation à grande échelle",
-            "Responsables, fonctionnement et finalité encore inconnus"
+            "Responsables, fonctionnement et finalité encore inconnus",
+            "Dans la Cathédrale, les doubles du personnage semblent eux aussi exploiter l'énergie d'une créature ressemblant aux grands renards",
+            "Le rapport exact entre le dispositif de la Cathédrale et les installations de la mine est inconnu"
           ]
         },
         {
@@ -525,7 +576,7 @@ window.CARTE = {
         {
           "h": "H1",
           "n": "Le personnage était déjà mort à son réveil",
-          "d": "Première intuition renforcée subjectivement par la Sépulture de l'Avatar, une illustration de tête squelettique et le texte du manuel sur les fantômes ; rien n'est encore prouvé"
+          "d": "Première intuition renforcée subjectivement par la Sépulture de l'Avatar, une illustration de tête squelettique et le texte du manuel sur les fantômes ; rien n'est encore prouvé Après la confrontation avec la renarde, l'état du personnage ressemble à celui des fantômes du monde parallèle ; sa nature réelle reste indéterminée."
         },
         {
           "h": "H2",
@@ -554,7 +605,8 @@ window.CARTE = {
         },
         {
           "h": "H7",
-          "n": "La Sépulture est liée à l'identité du personnage"
+          "n": "La Sépulture est liée à l'identité du personnage",
+          "d": "La Sépulture ressemble au personnage. Les fantômes parlent maintenant d'un « Avatar imbécile » : le joueur soupçonne qu'ils pourraient parler de lui, sans confirmation."
         },
         {
           "h": "H8",
@@ -634,6 +686,41 @@ window.CARTE = {
           "s": "open",
           "l": "partiellement étayée",
           "d": "Les trois clés ont été déposées ; la renarde n'est plus dans son ancien lieu de détention et apparaît dans la salle de l'épée. Sa libération effective, le rôle du cristal et les raisons de son attaque restent à comprendre."
+        },
+        {
+          "h": "H20",
+          "n": "Je pourrais être l'Avatar évoqué par les fantômes",
+          "s": "open",
+          "l": "à vérifier",
+          "d": "Hypothèse fondée sur la Sépulture de l'Avatar, le nouvel état du personnage et des paroles partiellement comprises dans le monde parallèle."
+        },
+        {
+          "h": "H21",
+          "n": "Les fantômes reprochent peut-être à l'Avatar d'avoir libéré la renarde",
+          "s": "open",
+          "l": "à vérifier",
+          "d": "Interprétation de l'expression « Avatar imbécile » après l'attaque de la renarde ; on ignore si la phrase vise le personnage et ce qu'elle désigne."
+        },
+        {
+          "h": "H22",
+          "n": "Je pourrais être l'une des copies rencontrées dans la Cathédrale",
+          "s": "open",
+          "l": "à vérifier",
+          "d": "Des doubles conformes au personnage paraissent vénérer une statue de la renarde ; origine de ces doubles inconnue."
+        },
+        {
+          "h": "H23",
+          "n": "Chaque mort pourrait faire revenir une nouvelle copie de moi",
+          "s": "open",
+          "l": "à vérifier",
+          "d": "Question soulevée après avoir rencontré des doubles identiques : est-ce le même personnage qui revient à la vie après chaque mort ?"
+        },
+        {
+          "h": "H24",
+          "n": "J'ai peut-être été manipulé pour libérer la renarde",
+          "s": "open",
+          "l": "à vérifier",
+          "d": "Après l'attaque de la renarde, les paroles des fantômes et le culte rendu par les doubles, le joueur s'interroge sur les motivations qui l'ont conduit à placer les clés."
         }
       ]
     },
@@ -731,6 +818,26 @@ window.CARTE = {
         {
           "n": "Que signifie le nouvel état du personnage sur la plage ?",
           "d": "Après la défaite face à la renarde, retour à l'endroit du début sous une apparence semblable au monde parallèle ; tests à effectuer"
+        },
+        {
+          "n": "Le monde parallèle a-t-il changé à cause des trois clés ou de la défaite ?",
+          "d": "Émanations dangereuses, nouveaux fantômes et fragments de dialogues observés ; cause exacte non établie"
+        },
+        {
+          "n": "Que veulent dire « Avatar imbécile », « quatrième clé » et « engin de siège » ?",
+          "d": "Fragments de paroles entendus ; référents et sens à élucider"
+        },
+        {
+          "n": "Qui sont les doubles de la Cathédrale ?",
+          "d": "Échos rouges et copies identiques ; certains semblent vénérer la renarde blanche"
+        },
+        {
+          "n": "À chaque mort, est-ce moi qui reviens ou une nouvelle copie ?",
+          "d": "Question sur l'identité et la continuité du personnage, encore sans réponse"
+        },
+        {
+          "n": "Pourquoi des copies semblent-elles exploiter un grand renard ?",
+          "d": "Statue vénérée, énergie exploitée et crânes nombreux dans la Cathédrale ; lien avec les Charognards inconnu"
         }
       ]
     },
@@ -787,6 +894,18 @@ window.CARTE = {
         {
           "n": "La renarde attaque après les trois clés",
           "d": "Très grand trouble : après avoir espéré la libérer et imaginé un lien maternel, le joueur découvre son absence au lieu de détention, la retrouve près de l'épée puis se fait vaincre en un coup ; envie immédiate de tester ce qui a changé"
+        },
+        {
+          "n": "Monde parallèle bouleversé",
+          "d": "Trouble devant les traces de l'énergie dangereuse, l'apparition de fantômes semblables au personnage et leurs paroles inquiétantes"
+        },
+        {
+          "n": "Doubles et culte dans la Cathédrale",
+          "d": "Grande inquiétude et déroutement face aux échos rouges, aux copies conformes, au culte apparent de la renarde et aux nombreux crânes"
+        },
+        {
+          "n": "Doute sur sa propre existence",
+          "d": "Le joueur se demande s'il est lui-même un double et si chaque mort ramène le même être ou une copie ; peur d'avoir été manipulé"
         }
       ]
     }

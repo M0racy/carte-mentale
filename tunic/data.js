@@ -1,10 +1,10 @@
 // Contenu de la carte mentale. Modifie ce fichier (ou exporte-le depuis le mode Modifier du site).
 window.CARTE = {
   "title": "Tunic · carte mentale",
-  "subtitle": "D'après ton carnet d'exploration · 8 h de jeu · 8 novembre 2026",
+  "subtitle": "D'après ton carnet d'exploration · après 8 h de jeu · 9 novembre 2026",
   "core": {
     "t": "TUNIC",
-    "s": "9 h · carnet"
+    "s": "carnet en cours"
   },
   "branches": [
     {
@@ -38,7 +38,9 @@ window.CARTE = {
           "sub": [
             "Figure blanche au-dessus des créatures",
             "Salle aux portes dorées",
-            "grappin des franc-maçons dans leur loge"
+            "grappin des franc-maçons dans leur loge",
+            "Passage découvert près du marécage / bassin où se baignent les grenouilles",
+            "Salle autrefois inaccessible atteinte : Orbe magique récupérée"
           ]
         },
         {
@@ -61,7 +63,12 @@ window.CARTE = {
         {
           "n": "Sépulture de l'Avatar",
           "s": "open",
-          "l": "incomplète"
+          "l": "incomplète",
+          "d": "Sépulture suspendue dans un monde parallèle ; plusieurs accès découverts depuis des endroits différents",
+          "sub": [
+            "Entrées débouchant en divers points autour de la Sépulture",
+            "Emplacements précis des accès non mémorisés"
+          ]
         },
         {
           "n": "Espace parallèle",
@@ -73,18 +80,36 @@ window.CARTE = {
         },
         {
           "n": "Château céleste",
-          "s": "no",
-          "l": "accès non trouvé"
+          "s": "open",
+          "l": "accès à tester",
+          "d": "Le portail de la statue géante mène devant le château ; la traversée semble possible grâce à des points d'accroche",
+          "sub": [
+            "Hypothèse : l'Orbe magique permettrait de franchir la séparation",
+            "Hypothèse non encore vérifiée"
+          ]
+        },
+        {
+          "n": "Mine abandonnée de la montagne du Nord",
+          "s": "open",
+          "l": "partiellement explorée",
+          "d": "Explorée depuis l'entrée de la montagne et par le Passage interdit grâce à l'Orbe magique",
+          "sub": [
+            "L'énergie rose-violette semble y être extraite",
+            "Certaines zones sont encore à explorer"
+          ]
         },
         {
           "n": "Passage interdit (NORD Contrées sauvages)",
-          "d": "Grâce au grappin"
+          "d": "Accessible grâce à l'Orbe magique ; donne accès à la mine du Nord par un autre côté"
         },
         {
-          "n": "Sous sol futuriste sous la montagne du nord avec des petits robots murs partout (je suis perdu dans cette partie de l'exploration)",
+          "n": "Souterrains futuristes de la montagne du Nord",
           "sub": [
-            "Me fait penser à la phrase qui concerne la clé verte (au plus profond dans les racines de la terre)"
-          ]
+            "Piste personnelle liée aux « racines du monde » ; le manuel associe cette indication à la clé bleue, pas à la verte"
+          ],
+          "s": "open",
+          "l": "exploration inachevée",
+          "d": "Salle technologique très profonde ; nombreux robots surgissant des murs et attaquant ; exploration interrompue après s'y être perdu"
         }
       ]
     },
@@ -193,12 +218,15 @@ window.CARTE = {
         },
         {
           "n": "Objet derrière les batraciens",
-          "s": "no",
-          "l": "non récupéré"
+          "s": "ok",
+          "l": "récupéré",
+          "d": "Il s'agissait de l'Orbe magique ; accès trouvé près du bassin des grenouilles"
         },
         {
           "n": "Orbe Magique",
-          "d": "Permet de s'accrocher sur les grappins"
+          "d": "Sert de grappin, permet de s'accrocher aux points prévus et d'explorer d'autres endroits",
+          "s": "ok",
+          "l": "récupérée"
         }
       ]
     },
@@ -234,7 +262,11 @@ window.CARTE = {
         },
         {
           "n": "Grappin",
-          "d": "Permet de s'accrocher aux crochets (et autre) permet d'explorer plus d'endroits"
+          "d": "L'Orbe magique sert à rejoindre des points d'accroche et franchir des passages auparavant inaccessibles",
+          "sub": [
+            "A ouvert le Passage interdit et de nouveaux chemins dans la mine",
+            "Nouvelle piste non testée : atteindre le château céleste"
+          ]
         }
       ]
     },
@@ -268,7 +300,7 @@ window.CARTE = {
         },
         {
           "n": "Batraciens",
-          "d": "Gardent un objet inaccessible"
+          "d": "Présents dans des salles et près d'un bassin ; passage découvert vers l'Orbe magique auparavant inaccessible"
         },
         {
           "n": "L'Avatar",
@@ -288,7 +320,11 @@ window.CARTE = {
       "items": [
         {
           "n": "Énergie rose-violette",
-          "d": "Plusieurs régions, souterrains, tombeau"
+          "d": "Vue dans plusieurs régions ; semble extraite dans la mine de la montagne du Nord",
+          "sub": [
+            "Hors des conduits, en s'en approchant, la longueur maximale de la jauge de vie diminue",
+            "La mine est un lieu d'extraction observé, pas une preuve de sa source originelle"
+          ]
         },
         {
           "n": "Structures métalliques",
@@ -333,7 +369,8 @@ window.CARTE = {
         },
         {
           "h": "H5",
-          "n": "L'énergie rose-violette vient de la mine du nord dans les montagnes"
+          "n": "L'énergie rose-violette vient de la mine du nord dans les montagnes",
+          "d": "Présence de gisements et d'extraction observée au Nord ; l'origine première de l'énergie reste inconnue"
         },
         {
           "h": "H6",
@@ -353,7 +390,24 @@ window.CARTE = {
         },
         {
           "h": "H10",
-          "n": "Le château céleste a un autre accès"
+          "n": "Le château céleste a un autre accès",
+          "s": "no",
+          "l": "piste abandonnée",
+          "d": "Hypothèse initiale désormais jugée fausse : des points d'accroche visibles devant le château pourraient permettre d'y accéder par le passage déjà découvert."
+        },
+        {
+          "h": "H11",
+          "n": "Le passage déjà découvert mène bien au château céleste",
+          "s": "open",
+          "l": "à vérifier",
+          "d": "Après un rêve sur Tunic, souvenir de points d'accroche devant le château : l'Orbe magique pourrait permettre de traverser. Pas encore essayé."
+        },
+        {
+          "h": "H12",
+          "n": "L'énergie rose-violette provient de la renarde",
+          "s": "open",
+          "l": "hypothèse fragilisée",
+          "d": "Ancienne piste affaiblie par la découverte d'une mine ; la découverte ne suffit pas à établir l'origine ultime de l'énergie."
         }
       ]
     },
@@ -373,7 +427,7 @@ window.CARTE = {
         {
           "n": "Source de l'énergie : les structures la reçoivent ?",
           "sub": [
-            "Au nord, dans les montagnes, il y a une sorte de mine. L'énergie semble provenir de cet endroit"
+            "Extraction apparente dans la mine du Nord ; origine première encore inconnue"
           ]
         },
         {
@@ -389,7 +443,7 @@ window.CARTE = {
           "n": "La Sépulture a-t-elle d'autres entrées ?",
           "s": "ok",
           "l": "fait",
-          "d": "réponse : OUI"
+          "d": "Oui : plusieurs accès découverts depuis différents endroits, débouchant autour de la Sépulture suspendue. Emplacements précis non mémorisés."
         },
         {
           "n": "Quel lien entre le personnage et l'Avatar ?",
@@ -401,7 +455,8 @@ window.CARTE = {
           "n": "Où trouver les clés verte et bleue ?"
         },
         {
-          "n": "Comment atteindre le château céleste ?"
+          "n": "Comment atteindre le château céleste ?",
+          "d": "Piste à tester : utiliser l'Orbe magique sur les points d'accroche près de l'accès déjà découvert"
         },
         {
           "n": "Qui est la renarde, quel est le rôle du personnage ?",
@@ -436,6 +491,10 @@ window.CARTE = {
         {
           "n": "Lanterne, prosternation, porte dorée",
           "d": "Enthousiasme, forte excitation"
+        },
+        {
+          "n": "Déclic nocturne sur le château céleste",
+          "d": "Rêve consacré à Tunic ; souvenir des points d'accroche et intuition qu'il manquait seulement l'Orbe magique"
         }
       ]
     }

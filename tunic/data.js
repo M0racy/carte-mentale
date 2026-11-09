@@ -1,7 +1,7 @@
 // Contenu de la carte mentale. Modifie ce fichier (ou exporte-le depuis le mode Modifier du site).
 window.CARTE = {
   "title": "Tunic · carte mentale",
-  "subtitle": "D'après ton carnet d'exploration · mise à jour du 9 novembre 2026",
+  "subtitle": "D'après ton carnet d'exploration · mise à jour du 10 novembre 2026",
   "core": {
     "t": "TUNIC",
     "s": "carnet en cours"
@@ -278,6 +278,12 @@ window.CARTE = {
           "d": "Nouvelle mobilité permettant de franchir des distances et d'atteindre des objets à l'autel"
         },
         {
+          "n": "Saintes Croix",
+          "s": "ok",
+          "l": "découvertes",
+          "d": "Nouvelle possibilité d'accès à des lieux ou passages, en complément de la couronne et du dash"
+        },
+        {
           "n": "Rencontre après les trois clés",
           "s": "open",
           "l": "conséquences à explorer",
@@ -440,6 +446,16 @@ window.CARTE = {
           "sub": [
             "Nouvelle possibilité de revisiter des endroits jusque-là inaccessibles",
             "Nécessité de tester ses autres applications sans supposer qu'elles sont toutes connues"
+          ]
+        },
+        {
+          "n": "Saintes Croix",
+          "s": "ok",
+          "l": "découvertes",
+          "d": "Nouveau mécanisme identifié par le joueur : permet désormais d'accéder à certains endroits auparavant inaccessibles",
+          "sub": [
+            "Fonctionnement exact et lieux concernés à préciser lors d'un prochain compte rendu",
+            "Découverte distincte de la capacité de dash obtenue avec la couronne"
           ]
         }
       ]
@@ -882,6 +898,10 @@ window.CARTE = {
         {
           "n": "Quels autres endroits le dash permet-il d'atteindre ?",
           "d": "L'autel montre déjà que cette nouvelle capacité change l'accès à certains objets ; autres utilisations à découvrir"
+        },
+        {
+          "n": "Quels endroits les Saintes Croix permettent-elles d'atteindre ?",
+          "d": "Mécanisme découvert, mais aucun nouvel emplacement précis n'a encore été détaillé dans le carnet"
         }
       ]
     },
@@ -954,6 +974,10 @@ window.CARTE = {
         {
           "n": "Couronne et découverte du dash",
           "d": "Émerveillement et excitation devant la possibilité de rejoindre enfin, depuis un autel, des objets auparavant inaccessibles (« C'est dingue »)"
+        },
+        {
+          "n": "Découverte des Saintes Croix",
+          "d": "Émerveillement et enthousiasme : le joueur découvre encore de nouvelles façons d'accéder au monde, même après avoir obtenu les trois clés et la couronne"
         }
       ]
     }

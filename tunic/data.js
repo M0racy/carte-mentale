@@ -359,6 +359,16 @@ window.CARTE = {
             "Je mets pour le moment le déchiffrement de la langue en pause.",
             "Je garde aussi la porte de la montagne parmi mes énigmes ouvertes."
           ]
+        },
+        {
+          "n": "Coffre caché découvert grâce à la page 11",
+          "d": "J'ai repéré sur la page 11 des points ressemblant à une Sainte Croix, puis reproduit la séquence à l'endroit représenté sur la carte : un coffre est apparu.",
+          "s": "ok",
+          "l": "secret découvert",
+          "sub": [
+            "Le coffre contenait un objet décrit comme « objet secret » avec un numéro dont je ne me souviens pas précisément.",
+            "Je ne connais pas encore l'utilité de cet objet."
+          ]
         }
       ]
     },
@@ -387,14 +397,14 @@ window.CARTE = {
         },
         {
           "n": "Manuel",
-          "d": "Langue en partie inconnue",
+          "d": "49 pages numérotées relevées, plus une table des matières sans numéro ; certaines pages restent manquantes.",
           "sub": [
-            "Ancienne liste des pages possédées, à actualiser : 2-3, 6-7, 10-21, 24-37",
-            "Ancienne liste des pages manquantes jusqu'à 37, à actualiser : 1, 4-5, 8-9, 22-23",
+            "Table des matières non numérotée en ma possession.",
+            "Pages numérotées en ma possession : de la page 3 à la page 45 incluses, puis les pages 48 à 53.",
+            "Pages non mentionnées dans mon relevé : 1–2 et 46–47. Je ne présume pas du contenu des autres pages au-delà de 53.",
             "Page des trois clés et du dispositif central",
             "Page sur les soldats",
             "Moyen de défier la mort, lié à ce qui est derrière la porte dorée",
-            "Pages supplémentaires récupérées dans la dernière session (numéros à préciser)",
             "Page sur le marécage de l'ancien cimetière, les fantômes et une tête partiellement squelettique",
             "Informations sur les Charognards et leur Matriarche",
             "Mention de la Cathédrale comme nouvelle piste d'exploration",
@@ -407,10 +417,10 @@ window.CARTE = {
             "Après ma victoire sur la renarde, un message de fin m'a indiqué qu'il me manquait encore des pages ; je continue mon exploration.",
             "Une liste liée à une « réunion secrète » et à un « trésor final » semble progresser lorsque je libère des êtres trouvés via les motifs.",
             "La case « réunion secrète » est déjà cochée, mais je ne sais pas quelle action l'a validée ni si je possédais cette page avant de libérer ces êtres.",
-            "Je transmettrai plus tard la liste exacte de mes pages actuelles pour remplacer les anciens relevés."
+            "Page 11 : j'ai remarqué des points susceptibles de former une Sainte Croix ; en reproduisant ce motif à l'endroit indiqué sur la carte du manuel, j'ai fait apparaître un coffre caché."
           ],
           "s": "open",
-          "l": "nouvelles pages"
+          "l": "pages inventoriées"
         },
         {
           "n": "Épée bleue flottante",
@@ -453,6 +463,12 @@ window.CARTE = {
             "Aucun changement constaté au nombre de potions, à l'épée, au bouclier, aux sorts ou objets accessibles.",
             "Éventuel effet sur la jauge de vie impossible à confirmer sans mesure antérieure."
           ]
+        },
+        {
+          "n": "Objet secret issu du coffre de la page 11",
+          "d": "Objet découvert après avoir suivi un motif suggéré par des points sur la page 11 ; le nom et le numéro exacts restent à relever.",
+          "s": "ok",
+          "l": "récupéré ; rôle inconnu"
         }
       ]
     },
@@ -543,7 +559,8 @@ window.CARTE = {
             "Déclic dans le temple derrière la porte des trois clés : le motif au sol ressemblait à une illustration du manuel.",
             "Je cherche maintenant des tracés dans les fleurs, la mousse des murs, les tapis et d'autres éléments du décor.",
             "En reproduisant certains motifs, je récupère des petits êtres que je peux ensuite libérer.",
-            "Je continue à m'interroger sur la valeur culturelle ou spirituelle des Saintes Croix."
+            "Je continue à m'interroger sur la valeur culturelle ou spirituelle des Saintes Croix.",
+            "À la page 11, des points proches de la mention « Trésor ou récompense » m'ont fait penser à un motif ; je l'ai reproduit au bon endroit et un coffre est apparu."
           ]
         },
         {
@@ -1021,6 +1038,13 @@ window.CARTE = {
           "d": "Je pressens un lien entre les motifs des Saintes Croix, la liste des êtres à libérer, le trésor final et l'énigme de la porte de la montagne ; ce rapprochement reste une intuition.",
           "s": "open",
           "l": "lien supposé"
+        },
+        {
+          "h": "H33",
+          "n": "Les objets secrets pourraient cocher les cases du manuel",
+          "d": "Je me demande si les objets secrets, comme celui découvert grâce à la page 11, participent au remplissage de certaines cases du manuel. Je ne connais pas l'état exact des cases avant le ramassage et ne peux donc pas confirmer de lien.",
+          "s": "open",
+          "l": "hypothèse à tester"
         }
       ]
     },
@@ -1202,6 +1226,10 @@ window.CARTE = {
         {
           "n": "Pourquoi le monde ne revient-il pas à son état initial ?",
           "d": "J'ai retrouvé ma forme normale après les sépultures, mais la carte reste transformée et des zones sont encore bloquées par la « matière Renard ». Le retour à la vie ne suffit donc pas à inverser ces changements."
+        },
+        {
+          "n": "Les objets secrets font-ils avancer les cases du manuel ?",
+          "d": "Je vais garder une capture d'écran de l'état des cases, puis comparer avant et après ma prochaine découverte d'un objet semblable. Pour celui de la page 11, l'état précédent est inconnu."
         }
       ]
     },

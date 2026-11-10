@@ -1,7 +1,7 @@
 // Contenu de la carte mentale. Modifie ce fichier (ou exporte-le depuis le mode Modifier du site).
 window.CARTE = {
   "title": "Tunic · carte mentale",
-  "subtitle": "D'après ton carnet d'exploration · mise à jour du 10 novembre 2026",
+  "subtitle": "Mon carnet d'exploration · mis à jour le 10 novembre 2026",
   "core": {
     "t": "TUNIC",
     "s": "carnet en cours"
@@ -17,7 +17,7 @@ window.CARTE = {
           "n": "Plage",
           "d": "Lieu du réveil ; passages qui la longent",
           "sub": [
-            "Après avoir été vaincu d'un seul coup par la renarde, le personnage réapparaît au lieu de départ dans un état visuel semblable à celui de l'espace parallèle"
+            "Après ma première défaite face à la renarde, j'ai réapparu sur la plage sous une forme fantomatique."
           ]
         },
         {
@@ -59,21 +59,22 @@ window.CARTE = {
         },
         {
           "n": "Temple de la porte dorée",
-          "d": "Les trois clés y ont été déposées ; un cristal semble se libérer, sans autre effet immédiatement évident",
+          "d": "J'ai ouvert le temple et déposé les trois clés. Un cristal s'est libéré, et la renarde a quitté sa prison habituelle.",
           "sub": [
             "La renarde disparaît ensuite de son lieu de détention dans l'espace parallèle",
-            "Le joueur est parti vérifier sa présence dans la salle de l'épée"
+            "Je suis allé vérifier sa présence dans la salle de l'épée.",
+            "Derrière la grande porte ouverte grâce aux trois clés, le dessin du sol m'a rappelé un motif de Sainte Croix présenté dans le manuel. C'est l'origine de mon déclic sur les motifs du décor."
           ]
         },
         {
           "n": "Salle de l'épée",
-          "s": "open",
-          "l": "rencontre troublante",
-          "d": "La renarde blanche s'y trouve après le dépôt des trois clés, auprès de l'épée ; elle se met à attaquer le personnage",
+          "s": "ok",
+          "l": "combat remporté",
+          "d": "J'ai retrouvé la renarde blanche près de l'épée après les trois clés. Elle m'a d'abord vaincu ; plus tard, j'ai remporté le combat et je me suis retrouvé enfermé à sa place.",
           "sub": [
             "Défaite en un seul coup",
             "Réapparition sur la plage dans un état semblable à celui du monde parallèle",
-            "Le joueur veut tester les conséquences de ce changement"
+            "J'ai voulu tester les conséquences de cette transformation."
           ]
         },
         {
@@ -84,7 +85,7 @@ window.CARTE = {
         {
           "n": "Sépulture de l'Avatar",
           "s": "open",
-          "l": "incomplète",
+          "l": "plusieurs accès connus",
           "d": "Sépulture suspendue dans un monde parallèle ; plusieurs accès découverts depuis des endroits différents",
           "sub": [
             "Entrées débouchant en divers points autour de la Sépulture",
@@ -97,9 +98,10 @@ window.CARTE = {
           "sub": [
             "Après le dépôt des trois clés, la renarde n'est plus à son emplacement habituel",
             "Nouvelles traces d'énergie dangereuse, rappelant celle de la mine et nécessitant un masque",
-            "Présence de fantômes semblables à l'état actuel du personnage",
+            "J'ai rencontré des fantômes qui ressemblaient à mon état d'alors.",
             "Fragments de paroles compréhensibles : « Avatar imbécile », allusion possible à une quatrième clé, mention d'un engin de siège",
-            "Le sens exact de leurs paroles et du changement de monde reste inconnu"
+            "Le sens exact de leurs paroles et du changement de monde reste inconnu",
+            "Après avoir récupéré les objets des sépultures, j'ai retrouvé ma forme normale."
           ]
         },
         {
@@ -121,11 +123,11 @@ window.CARTE = {
           "n": "Grande bibliothèque du château",
           "s": "ok",
           "l": "explorée",
-          "d": "Livres de la taille du personnage, tasses et tables gigantesques : lieu vraisemblablement conçu pour de grands êtres",
+          "d": "Livres aussi grands que moi, tasses et tables gigantesques : je suppose que le lieu était conçu pour de grands êtres.",
           "sub": [
             "Représentations rappelant la renarde blanche et les grands renards",
             "Pièce qui paraît encore habitée ou récemment interrompue, peut-être grâce à l'éclairage",
-            "Le Bibliothécaire, d'apparence singulière et plus grand que le personnage, détenait la clé verte"
+            "Le Bibliothécaire, d'apparence singulière et plus grand que moi, détenait la clé verte."
           ]
         },
         {
@@ -134,7 +136,7 @@ window.CARTE = {
           "l": "découvert",
           "d": "Des éléments déjà rencontrés au cours de l'aventure y sont réunis",
           "sub": [
-            "Tourelles hostiles au personnage, mais pas à certaines autres créatures observées",
+            "Les tourelles m'attaquent, mais ignorent certaines créatures.",
             "Pages du manuel, monstres et dispositifs familiers",
             "Impression d'activité interrompue plutôt que d'abandon ancien"
           ]
@@ -173,8 +175,8 @@ window.CARTE = {
           "l": "en partie exploré",
           "d": "Région du marécage partiellement explorée ; passage vers la Cathédrale. Le manuel y évoque les fantômes et un danger extrême",
           "sub": [
-            "Illustration d'une tête ressemblant au personnage, à l'apparence partiellement squelettique",
-            "Le personnage a déjà parcouru une partie de cette région ; accès aux terres intérieures non établi",
+            "Dans le manuel, j'ai vu une tête semblable à la mienne, partiellement squelettique.",
+            "J'ai déjà parcouru une partie du cimetière ; je ne sais pas si j'ai atteint toutes les terres intérieures.",
             "La Cathédrale a été trouvée en poursuivant l'exploration des marécages"
           ]
         },
@@ -182,13 +184,13 @@ window.CARTE = {
           "n": "Cathédrale",
           "s": "ok",
           "l": "épreuves terminées",
-          "d": "Atteinte depuis les marécages : doubles du personnage, culte apparent de la renarde et épreuves de combat terminées",
+          "d": "J'ai exploré la Cathédrale depuis les marécages : mes doubles, un culte apparent de la renarde et des épreuves de combat.",
           "sub": [
             "Certaines copies semblent vouer un culte à une statue représentant la renarde blanche",
-            "Le joueur observe des crânes en très grand nombre",
+            "J'ai vu des crânes absolument partout.",
             "Des copies semblent utiliser l'énergie d'une créature rappelant les grands renards exploités",
             "Après l'ascenseur rose, affrontements successifs : gardes fantômes, grenouilles, gardes-pierres tirant des lasers, deux mini-boss, squelettes et sorciers",
-            "Toutes ces épreuves ont été remportées ; une couronne a été obtenue",
+            "J'ai vaincu les adversaires des épreuves et obtenu la couronne.",
             "La couronne permet une nouvelle capacité de déplacement : le dash"
           ]
         },
@@ -199,13 +201,34 @@ window.CARTE = {
           "d": "Ascenseur ayant précédé la fin de l'exploration de la cathédrale et ses épreuves successives"
         },
         {
-          "n": "Autel aux objets",
-          "s": "open",
-          "l": "objets accessibles",
-          "d": "Après avoir obtenu la couronne, le joueur a atteint un autel et découvert que le dash lui permet de rejoindre les objets qui s'y trouvent pour les récupérer",
+          "n": "Autels et sépultures de l'Avatar",
+          "s": "ok",
+          "l": "objets récupérés",
+          "d": "Grâce au dash, j'ai atteint les objets de plusieurs sépultures et récupéré les capacités qui me manquaient, jusqu'à retrouver ma forme normale.",
           "sub": [
-            "Localisation et lien exacts avec les autres autels à préciser",
-            "Des objets auparavant hors d'atteinte deviennent accessibles grâce à la nouvelle capacité"
+            "Au départ, je connaissais leur effet individuel sans comprendre que les réunir tous me ferait progresser.",
+            "J'ai fini par récupérer le dernier objet, lié aux potions.",
+            "Les accès précis aux différentes sépultures restent à reconstituer dans mes notes."
+          ]
+        },
+        {
+          "n": "Porte de la montagne",
+          "d": "Grande porte dont je n'ai pas encore déchiffré le code. Elle reste une énigme en cours, distincte de l'accès au dernier objet des sépultures.",
+          "s": "open",
+          "l": "code non résolu",
+          "sub": [
+            "Je pressens un lien possible avec les recherches sur les motifs et les pages du manuel, sans preuve pour l'instant."
+          ]
+        },
+        {
+          "n": "Salle derrière une cascade — Contrées sauvages ?",
+          "d": "Salle où je peux libérer les petits êtres récupérés grâce aux motifs des Saintes Croix ; localisation exacte à confirmer.",
+          "s": "open",
+          "l": "lieu à resituer",
+          "sub": [
+            "Je crois me souvenir d'une cascade ou d'une grotte dans les Contrées sauvages.",
+            "Les libérations semblent cocher progressivement des cases d'une liste dans le manuel.",
+            "Une case « réunion secrète » est déjà cochée, sans que je puisse identifier le lieu correspondant."
           ]
         }
       ]
@@ -244,7 +267,7 @@ window.CARTE = {
           "n": "Clé verte",
           "s": "ok",
           "l": "récupérée",
-          "d": "Obtenue dans la bibliothèque du château céleste après le Bibliothécaire, qui l'avait dérobée selon les informations du joueur",
+          "d": "J'ai récupéré la clé verte dans la bibliothèque du château céleste, après avoir vaincu le Bibliothécaire, qui semble l'avoir volée.",
           "sub": [
             "Région du ciel atteinte grâce à l'Orbe magique"
           ]
@@ -260,13 +283,13 @@ window.CARTE = {
           "n": "Trois clés réunies",
           "s": "ok",
           "l": "3 sur 3",
-          "d": "Les clés rouge, bleue et verte sont acquises ; la rouge a déjà été déposée au temple"
+          "d": "J'ai récupéré les clés rouge, verte et bleue et je les ai toutes déposées dans le temple."
         },
         {
           "n": "Retour au dispositif doré",
           "s": "ok",
           "l": "trois clés déposées",
-          "d": "Les trois clés ont été posées dans le dispositif : de prime abord, seul un cristal semble avoir été libéré. Conséquences encore mystérieuses."
+          "d": "J'ai déposé les trois clés dans le dispositif : un cristal semble s'être libéré, puis j'ai retrouvé la renarde dans la salle de l'épée."
         },
         {
           "n": "Épreuves de la Cathédrale",
@@ -287,19 +310,21 @@ window.CARTE = {
           "d": "Nouvelle possibilité d'accès à des lieux ou passages, en complément de la couronne et du dash"
         },
         {
-          "n": "Confrontation annoncée par le manuel",
-          "s": "open",
-          "l": "à éclaircir",
-          "d": "Selon l'interprétation actuelle des nouvelles pages, l'Avatar devrait affronter la renarde blanche de manière répétée et prendre sa place après l'avoir vaincue",
+          "n": "Confrontation avec la renarde : premier dénouement",
+          "s": "ok",
+          "l": "première conclusion vécue",
+          "d": "J'ai vaincu la renarde après un combat en deux phases. L'animation finale me montre enfermé à sa place. Le manuel évoquait déjà des confrontations répétées.",
           "sub": [
-            "Les illustrations montrent la couronne et semblent faire du dash une préparation à ce combat"
+            "La fin obtenue ne m'a pas satisfait : j'ai pris sa place sans comprendre les raisons de ce cycle.",
+            "Après cette fin, un message m'indique qu'il me manque encore des pages du manuel. Je poursuis donc mes recherches.",
+            "La couronne était représentée dans le manuel lors de cette confrontation."
           ]
         },
         {
           "n": "Rencontre après les trois clés",
-          "s": "open",
-          "l": "conséquences à explorer",
-          "d": "La renarde a quitté son emplacement habituel dans l'espace parallèle ; retrouvée dans la salle de l'épée, elle attaque et vainc le personnage d'un seul coup."
+          "s": "ok",
+          "l": "première défaite puis victoire",
+          "d": "Après avoir déposé les trois clés, j'ai retrouvé la renarde dans la salle de l'épée. Elle m'a vaincu en un coup et je suis réapparu sous forme fantomatique. Plus tard, je l'ai affrontée de nouveau."
         },
         {
           "n": "Quatre tours du désert",
@@ -311,7 +336,27 @@ window.CARTE = {
           "s": "ok",
           "l": "ouvert",
           "sub": [
-            "qui te TP devant le chateau"
+            "Ce portail m'a transporté devant le château céleste."
+          ]
+        },
+        {
+          "n": "Sépultures : capacités et retour à la vie",
+          "d": "Après le dash, j'ai récupéré les objets associés à mes caractéristiques dans les sépultures. J'ai fini par retrouver celui des potions et ma forme normale.",
+          "s": "ok",
+          "l": "tous les objets récupérés",
+          "sub": [
+            "J'avais compris le rôle individuel des objets, sans avoir aussitôt relié leur réunion à ma progression.",
+            "La piste du dernier objet m'a ramené vers la montagne ; le code de sa grande porte n'était pas nécessaire."
+          ]
+        },
+        {
+          "n": "Exploration après la première fin",
+          "d": "Je continue à chercher les pages manquantes, les motifs des Saintes Croix et les êtres à libérer. Mon nouvel objectif est lié à la réunion secrète et au trésor final.",
+          "s": "open",
+          "l": "en cours",
+          "sub": [
+            "Je mets pour le moment le déchiffrement de la langue en pause.",
+            "Je garde aussi la porte de la montagne parmi mes énigmes ouvertes."
           ]
         }
       ]
@@ -354,10 +399,14 @@ window.CARTE = {
             "Mention de la Cathédrale comme nouvelle piste d'exploration",
             "L'Avatar est représenté portant la couronne lors de cette confrontation",
             "Pages 7–8 : le texte mentionne explicitement une « confrontation répétée d'innombrables fois » entre l'Avatar et la renarde blanche.",
-            "L'interprétation selon laquelle l'Avatar finit par la vaincre et prendre sa place demeure une hypothèse distincte de la répétition écrite.",
+            "L'idée que je finisse par vaincre la renarde et prendre sa place était d'abord une interprétation des images ; j'ai désormais vécu ce dénouement.",
             "Le terme « hoir » apparaît ou est lu dans ce contexte ; en français, « hoir » est un ancien mot signifiant « héritier », sans certitude sur le personnage concerné.",
             "Page 21 : rapprochement en cours entre « The Ruined Atoll », « hints and clues » et les signes de la langue du jeu.",
-            "Page 49 : grille dorée de 5 × 5 nombres, deux groupes de signes en bas et un trait central terminé par un cercle ; sens encore inconnu."
+            "Page 49 : grille dorée de 5 × 5 nombres, deux groupes de signes en bas et un trait central terminé par un cercle ; sens encore inconnu.",
+            "Après ma victoire sur la renarde, un message de fin m'a indiqué qu'il me manquait encore des pages ; je continue mon exploration.",
+            "Une liste liée à une « réunion secrète » et à un « trésor final » semble progresser lorsque je libère des êtres trouvés via les motifs.",
+            "La case « réunion secrète » est déjà cochée, mais je ne sais pas quelle action l'a validée ni si je possédais cette page avant de libérer ces êtres.",
+            "Je transmettrai plus tard la liste exacte de mes pages actuelles pour remplacer les anciens relevés."
           ],
           "s": "open",
           "l": "nouvelles pages"
@@ -389,8 +438,8 @@ window.CARTE = {
           "l": "récupérée",
           "d": "Obtenue à l'issue des épreuves de la Cathédrale ; confère la capacité de dash",
           "sub": [
-            "Sur des illustrations du manuel, le personnage semble porter la couronne pendant la confrontation avec la renarde",
-            "Le joueur considère désormais le dash comme un élément de l'arsenal nécessaire à ce combat"
+            "Sur les illustrations du manuel, j'apparais avec une couronne lors de l'affrontement contre la renarde.",
+            "J'y ai vu un indice que le dash serait nécessaire lors de mon affrontement avec la renarde ; le combat a depuis eu lieu."
           ]
         },
         {
@@ -428,17 +477,17 @@ window.CARTE = {
           "n": "Mort",
           "d": "Séquence particulière la première fois ; essence récupérable sur place",
           "sub": [
-            "Après une attaque de la renarde, retour au lieu de départ sous une apparence semblable à celle observée dans l'espace parallèle",
-            "La signification et les mécanismes de cet état restent à tester"
+            "Après une attaque de la renarde, je suis revenu sur la plage sous une apparence fantomatique.",
+            "J'ai ensuite retrouvé ma forme normale en récupérant les objets des sépultures ; la cause profonde de ma transformation reste obscure."
           ]
         },
         {
           "n": "Nouvel état et fantômes",
-          "d": "Après la défaite contre la renarde, le personnage apparaît sur la plage dans un état semblable à celui des fantômes",
+          "d": "Après ma première défaite face à la renarde, je suis revenu sur la plage sous forme fantomatique ; j'ai ensuite retrouvé ma forme normale.",
           "sub": [
             "Le monde parallèle a changé ; ses fantômes sont désormais visibles et certaines paroles deviennent partiellement compréhensibles",
-            "Question : après chaque mort, est-ce le même personnage qui revient ou une copie ?",
-            "Le joueur envisage que ce monde soit une dimension parallèle, une couche supplémentaire de réalité ou un état particulier, sans trancher",
+            "Chaque mort me ramène-t-elle vraiment à la vie, ou une autre copie prend-elle ma place ?",
+            "Je ne sais pas si ce monde est une dimension parallèle, une couche supplémentaire de réalité ou un état particulier.",
             "Il a l'impression de ne rencontrer les siens que sous une forme fantomatique"
           ]
         },
@@ -460,14 +509,14 @@ window.CARTE = {
         },
         {
           "n": "Masques dans la mine",
-          "d": "Le personnage et les Charognards portent des masques dans la zone des émanations",
+          "d": "J'ai porté un masque dans la mine, tout comme les Charognards présents dans les zones d'émanations.",
           "sub": [
             "Leur vulnérabilité paraît comparable, sans prouver une parenté d'espèce"
           ]
         },
         {
           "n": "Tourelles et sélection des cibles",
-          "d": "D'après les observations du joueur, les tourelles se déclenchent contre lui, mais ignorent certaines autres créatures",
+          "d": "D'après mes observations, les tourelles m'attaquent mais ignorent certaines autres créatures.",
           "sub": [
             "Hypothèses : mécanisme de défense, ciblage d'une espèce ou d'une catégorie de menace",
             "Leurs créateurs et leur programmation ne sont pas identifiés"
@@ -480,19 +529,31 @@ window.CARTE = {
           "d": "Déplacement rapide obtenu grâce à la couronne ; permet notamment de rejoindre et récupérer des objets situés dans un autel",
           "sub": [
             "Nouvelle possibilité de revisiter des endroits jusque-là inaccessibles",
-            "Nécessité de tester ses autres applications sans supposer qu'elles sont toutes connues"
+            "Je n'ai peut-être pas encore découvert tous ses usages."
           ]
         },
         {
           "n": "Saintes Croix",
           "s": "ok",
-          "l": "découvertes",
-          "d": "Mécanisme ouvrant l'accès à de nouveaux endroits ; le joueur y voit aussi un élément culturel et spirituel renseignant sur les croyances du peuple renard",
+          "l": "nouvel usage découvert",
+          "d": "J'ai compris que les séquences directionnelles ne servent pas seulement à ouvrir des portes visibles : des motifs peuvent être dissimulés dans le décor.",
           "sub": [
-            "Fonctionnement exact et lieux concernés à préciser lors d'un prochain compte rendu",
-            "Découverte distincte de la capacité de dash obtenue avec la couronne",
-            "Contrairement au dash, les Saintes Croix lui paraissent apporter surtout des connaissances sur le peuple et sa spiritualité",
-            "Les lieux précis et le fonctionnement détaillé restent à compléter"
+            "Déclic dans le temple derrière la porte des trois clés : le motif au sol ressemblait à une illustration du manuel.",
+            "Je cherche maintenant des tracés dans les fleurs, la mousse des murs, les tapis et d'autres éléments du décor.",
+            "En reproduisant certains motifs, je récupère des petits êtres que je peux ensuite libérer.",
+            "Je continue à m'interroger sur la valeur culturelle ou spirituelle des Saintes Croix."
+          ]
+        },
+        {
+          "n": "Motifs du décor et êtres à libérer",
+          "d": "J'ai compris que la disposition de certains éléments du monde peut fournir des séquences utilisables avec les Saintes Croix.",
+          "s": "ok",
+          "l": "expérimenté",
+          "sub": [
+            "Motifs remarqués dans les fleurs, la mousse, les tapis, le sol et d'autres détails.",
+            "Certains motifs permettent de retrouver des êtres que j'appelle provisoirement « âmes ».",
+            "Je peux les libérer dans une salle dont je situe encore mal l'emplacement.",
+            "Leur libération semble faire progresser une liste du manuel."
           ]
         }
       ]
@@ -504,22 +565,23 @@ window.CARTE = {
       "side": "left",
       "items": [
         {
-          "n": "Passage du jeu en anglais",
-          "s": "ok",
-          "l": "effectué",
-          "d": "Le joueur a changé la langue d'interface pour comparer les expressions anglaises à l'écriture fictive, qu'il suppose stable entre traductions.",
+          "n": "Étude de l'écriture : en pause",
+          "s": "open",
+          "l": "recherches suspendues",
+          "d": "J'avais passé le jeu en anglais pour comparer la langue du manuel à l'anglais. Je l'ai maintenant remis en français pour plus de confort.",
           "sub": [
-            "Il pense que l'écriture originale du jeu s'appuie sur l'anglais ; cela reste son hypothèse de travail."
+            "Je suppose toujours que l'écriture fictive est liée à l'anglais, mais je n'en ai pas démontré les règles.",
+            "Je privilégie actuellement les Saintes Croix, les motifs du décor et les pages manquantes."
           ]
         },
         {
           "n": "Page 21 — The Ruined Atoll",
           "s": "open",
-          "l": "analyse en cours",
+          "l": "analyse suspendue",
           "d": "Comparaison de « The Ruined Atoll » et des signes correspondants dans les indices de la page 21 (« hints and clues »).",
           "sub": [
             "Un groupe de glyphes est supposé correspondre à « the ».",
-            "Deux traits semblent au joueur séparer des unités écrites.",
+            "J'ai l'impression que deux traits séparent des unités écrites.",
             "Le nombre de caractères ne correspond pas directement aux lettres anglaises.",
             "Piste envisagée : une transcription fondée sur des sons ou phonèmes plutôt que sur des lettres.",
             "Le découpage en syllabes et phonèmes anglais a été étudié, sans établir le sens exact des glyphes."
@@ -528,7 +590,7 @@ window.CARTE = {
         {
           "n": "Page 49 — grille dorée",
           "s": "open",
-          "l": "non résolue",
+          "l": "énigme non résolue",
           "d": "Grille de 25 nombres disposés sur cinq lignes et cinq colonnes, accompagnée d'inscriptions en langue fictive et d'un symbole vertical central.",
           "sub": [
             "Ligne 1 : 48, 11, 2, 6, 52",
@@ -536,7 +598,7 @@ window.CARTE = {
             "Ligne 3 : 15, 22, 55, 31, 33",
             "Ligne 4 : 46, 28, 9, 40, 18",
             "Ligne 5 : 34, 16, 12, 39, 44",
-            "Le joueur pressent un lien avec d'autres découvertes, mais n'a pas encore trouvé la logique."
+            "Je pressens un lien avec d'autres découvertes, mais je n'ai pas trouvé la logique."
           ]
         }
       ]
@@ -548,21 +610,21 @@ window.CARTE = {
       "side": "right",
       "items": [
         {
-          "n": "Le personnage",
-          "d": "Petit renard aux airs de fennec, réveillé sur la plage ; porte un masque pour se protéger des émanations de la mine",
+          "n": "Moi, le petit renard",
+          "d": "Je me suis réveillé sur la plage sous l'apparence d'un petit renard proche d'un fennec ; j'ai porté un masque contre les émanations de la mine.",
           "sub": [
-            "Taille et espèce encore incertaines : jeune grand renard, adulte plus petit ou autre espèce ?",
-            "Représentation de sa tête sous un aspect partiellement squelettique dans une page sur le cimetière",
-            "Après la confrontation avec la renarde, son nouvel état ressemble visuellement à celui des fantômes du monde parallèle",
-            "À la Cathédrale, rencontre des doubles rouges et des copies à son image",
-            "Le joueur est de plus en plus convaincu qu'il s'agit de l'Avatar du manuel",
+            "Je ne sais pas si je suis un jeune grand renard, un adulte plus petit ou membre d'une autre espèce.",
+            "Une page sur le cimetière montre une tête semblable à la mienne, partiellement squelettique.",
+            "Après ma confrontation avec la renarde, mon apparence ressemblait à celle des fantômes du monde parallèle.",
+            "À la Cathédrale, j'ai affronté des échos rouges et des copies conformes à mon apparence.",
+            "Je suis de plus en plus convaincu d'être l'Avatar du manuel.",
             "Nouvelle théorie : cet Avatar pourrait avoir été créé par le peuple renard pour affronter la renarde blanche",
-            "Les copies rencontrées au cimetière et dans la Cathédrale alimentent cette interrogation sur son origine"
+            "Mes doubles du cimetière et de la Cathédrale renforcent mes questions sur mon origine."
           ]
         },
         {
           "n": "Fantômes du monde parallèle",
-          "d": "Apparus après le dépôt des clés et la défaite face à la renarde ; ressemblent au personnage dans son état actuel",
+          "d": "Je les ai rencontrés après les trois clés et ma première défaite contre la renarde ; ils me ressemblent dans mon état fantomatique.",
           "sub": [
             "Certains fragments de leurs paroles deviennent compréhensibles",
             "Mots entendus : « Avatar imbécile », éventuelle quatrième clé et engin de siège",
@@ -570,16 +632,16 @@ window.CARTE = {
           ]
         },
         {
-          "n": "Échos rouges du personnage",
-          "d": "Adversaires rouges lui ressemblant, rencontrés dans la Cathédrale"
+          "n": "Mes échos rouges",
+          "d": "J'ai affronté dans la Cathédrale des adversaires rouges qui me ressemblaient."
         },
         {
-          "n": "Copies conformes du personnage",
-          "d": "Adversaires à l'apparence identique au protagoniste, rencontrés dans la Cathédrale",
+          "n": "Mes doubles dans la Cathédrale",
+          "d": "J'ai affronté dans la Cathédrale des adversaires à mon apparence exacte.",
           "sub": [
             "Plusieurs semblent vénérer une statue de la renarde blanche",
             "Présence de nombreux crânes dans les environs",
-            "Le joueur se demande s'il est lui-même l'une de ces copies"
+            "Je me demande si je suis moi-même une copie."
           ]
         },
         {
@@ -590,14 +652,16 @@ window.CARTE = {
             "Vue au-dessus des batraciens",
             "Statue géante dans le désert",
             "Rencontrée dans l'espace parallèle : hochements de tête, applaudissements, approbation",
-            "Le joueur lui fait confiance mais redoute qu'elle appartienne au groupe exploitant les renards",
+            "Je lui faisais confiance, mais je craignais qu'elle appartienne au groupe exploitant les grands renards.",
             "Son identité, son peuple et son rôle exact restent inconnus",
-            "Nouvelle hypothèse : elle serait peut-être la mère du personnage, en raison de sa taille, de leur ressemblance et de gestes perçus comme affectueux",
+            "J'ai envisagé qu'elle soit ma mère : notre ressemblance, notre différence de taille et ses gestes affectueux m'ont troublé.",
             "Après le dépôt des trois clés, absente de l'espace parallèle à l'endroit où elle était retenue",
-            "Retrouvée près de l'épée dans une autre salle ; elle attaque le personnage et le vainc en un coup",
+            "Je l'ai retrouvée près de l'épée dans une autre salle ; elle m'a attaqué et vaincu en un coup.",
             "Son identité, ses motivations et la nature de cette attaque restent inconnues",
-            "Le joueur pense désormais que des pages du manuel le montrent destiné à l'affronter de façon répétée, jusqu'à prendre sa place",
-            "Cette nouvelle lecture remet en question sa conviction initiale qu'il devait simplement la libérer"
+            "J'avais interprété des pages du manuel comme l'annonce de confrontations répétées jusqu'à ce que je prenne sa place ; ce remplacement a désormais eu lieu.",
+            "Cette nouvelle lecture remet en question sa conviction initiale qu'il devait simplement la libérer",
+            "Je l'ai vaincue, puis j'ai été enfermé à sa place lors de la première conclusion.",
+            "Nouvelle interrogation : était-elle elle-même une ancienne Avatar, victime du même cycle avant moi ? Aucune preuve de son origine ni de ses intentions."
           ]
         },
         {
@@ -608,7 +672,7 @@ window.CARTE = {
           "sub": [
             "Un très grand nombre de capsules observé sous la montagne",
             "Une créature hurle et se tord avant d'être enfermée : enfermement manifestement subi pour elle",
-            "Hypothèse du joueur : leur énergie pourrait être exploitée",
+            "Je soupçonne que leur énergie soit exploitée.",
             "Possible lien avec les grands occupants du château, non confirmé"
           ]
         },
@@ -618,7 +682,7 @@ window.CARTE = {
           "sub": [
             "Présence auprès des installations minières et d'enfermement",
             "Masques portés, vraisemblablement pour se protéger des émanations",
-            "Leur relation biologique avec le personnage et les grands renards reste inconnue"
+            "Je ne connais pas mon éventuel lien biologique avec les Charognards et les grands renards."
           ]
         },
         {
@@ -657,11 +721,22 @@ window.CARTE = {
           "n": "Croyances du peuple renard",
           "s": "open",
           "l": "à comprendre",
-          "d": "Le joueur perçoit une forte dimension spirituelle, notamment à travers les Saintes Croix, les statues et les pratiques observées",
+          "d": "Je perçois une forte dimension spirituelle à travers les statues, les pratiques observées et peut-être les Saintes Croix.",
           "sub": [
             "Hypothèse : le peuple renard aurait autrefois vénéré de grands renards chargés d'énergie",
             "Ces êtres pourraient ressembler à ceux aujourd'hui enfermés dans des capsules par les Charognards",
             "La relation historique exacte entre culte, grands renards et exploitation reste inconnue"
+          ]
+        },
+        {
+          "n": "Petits êtres libérés grâce aux motifs",
+          "d": "J'en récupère en découvrant et en reproduisant des motifs de Saintes Croix cachés dans le décor.",
+          "s": "open",
+          "l": "nature inconnue",
+          "sub": [
+            "Je les appelle « âmes », mais je ne suis pas entièrement sûr de leur nom ni de leur nature.",
+            "Je les libère dans une salle que je crois située derrière une cascade.",
+            "Leur libération semble liée à une liste du manuel sur une réunion secrète et un trésor final."
           ]
         }
       ]
@@ -695,9 +770,9 @@ window.CARTE = {
           "n": "Enfermement des grands renards",
           "d": "Observation d'un grand nombre de créatures enfermées ; au moins une hurle et se tord avant son placement dans une capsule",
           "sub": [
-            "Le joueur interprète le dispositif comme une exploitation à grande échelle",
+            "Je vois dans ces installations un système d'exploitation à grande échelle.",
             "Responsables, fonctionnement et finalité encore inconnus",
-            "Dans la Cathédrale, les doubles du personnage semblent eux aussi exploiter l'énergie d'une créature ressemblant aux grands renards",
+            "Dans la Cathédrale, mes doubles semblaient aussi exploiter l'énergie d'une créature ressemblant aux grands renards.",
             "Le rapport exact entre le dispositif de la Cathédrale et les installations de la mine est inconnu"
           ]
         },
@@ -728,18 +803,18 @@ window.CARTE = {
       "items": [
         {
           "h": "H1",
-          "n": "Le personnage était déjà mort à son réveil",
-          "d": "Première intuition renforcée subjectivement par la Sépulture de l'Avatar, une illustration de tête squelettique et le texte du manuel sur les fantômes ; rien n'est encore prouvé Après la confrontation avec la renarde, l'état du personnage ressemble à celui des fantômes du monde parallèle ; sa nature réelle reste indéterminée."
+          "n": "J'étais peut-être déjà mort à mon réveil",
+          "d": "La Sépulture de l'Avatar, une tête squelettique illustrée dans le manuel et ses textes sur les fantômes m'ont donné cette intuition. J'ai ensuite vécu une transformation fantomatique, avant de retrouver ma forme normale. Ma nature au début du jeu demeure inconnue."
         },
         {
           "h": "H2",
-          "n": "La renarde l'a ramené à la vie pour une mission",
-          "d": "Hypothèse d'une mission confiée par la renarde ; son attaque après le dépôt des trois clés rend les intentions supposées beaucoup plus incertaines."
+          "n": "La renarde m'aurait ramené à la vie pour une mission",
+          "d": "J'ai envisagé que la renarde m'ait confié une mission. Son attaque puis mon emprisonnement à sa place me font douter de ses intentions."
         },
         {
           "h": "H3",
-          "n": "Mission : libérer la renarde, réunir les clés, ou les deux",
-          "d": "Le dispositif des trois clés a été activé, mais le rôle du personnage et la nature de la libération restent difficiles à interpréter après l'attaque de la renarde."
+          "n": "Ma mission était-elle de libérer la renarde ?",
+          "d": "J'ai réuni les trois clés et provoqué sa libération, puis je l'ai vaincue et remplacée dans sa prison. Je m'interroge sur ma mission réelle."
         },
         {
           "h": "H4",
@@ -758,8 +833,8 @@ window.CARTE = {
         },
         {
           "h": "H7",
-          "n": "La Sépulture est liée à l'identité du personnage",
-          "d": "La Sépulture ressemble au personnage. Les fantômes parlent maintenant d'un « Avatar imbécile » : le joueur soupçonne qu'ils pourraient parler de lui, sans confirmation."
+          "n": "La Sépulture serait liée à mon identité",
+          "d": "La Sépulture ressemble à mon personnage. Les fantômes parlent d'un « Avatar imbécile » : je me demande s'ils désignent mon personnage."
         },
         {
           "h": "H8",
@@ -768,7 +843,9 @@ window.CARTE = {
         {
           "h": "H9",
           "n": "La porte dorée n'est qu'une première étape",
-          "d": "Intuition persistante : la porte dorée, puis les trois clés, ne résument peut-être pas l'histoire ; de nombreuses questions demeurent"
+          "d": "Après avoir ouvert le temple des trois clés puis vaincu la renarde, j'ai obtenu une conclusion insatisfaisante et appris qu'il me manquait encore des pages du manuel. Je pense que cette fin n'épuise pas tous les mystères du jeu.",
+          "s": "ok",
+          "l": "exploration poursuivie"
         },
         {
           "h": "H10",
@@ -793,10 +870,10 @@ window.CARTE = {
         },
         {
           "h": "H13",
-          "n": "Mon personnage a perdu la mémoire",
+          "n": "J'aurais perdu la mémoire",
           "s": "open",
           "l": "à vérifier",
-          "d": "Hypothèse de perte de mémoire : le joueur envisage désormais qu'elle l'ait amené à croire qu'il devait libérer la renarde, alors que les pages du manuel semblent lui assigner une autre mission."
+          "d": "J'ai peut-être oublié ma véritable mission et cru devoir libérer la renarde. Les pages du manuel pourraient préserver des informations que j'avais autrefois connues."
         },
         {
           "h": "H14",
@@ -817,7 +894,7 @@ window.CARTE = {
           "n": "Les tourelles me considèrent comme une menace",
           "s": "open",
           "l": "à vérifier",
-          "d": "Elles attaquent le personnage mais pas certaines autres créatures ; on ignore pourquoi et qui les a construites"
+          "d": "Les tourelles m'attaquent mais ignorent certaines autres créatures ; je ne sais ni pourquoi ni qui les a construites."
         },
         {
           "h": "H17",
@@ -831,7 +908,7 @@ window.CARTE = {
           "n": "La renarde blanche pourrait être ma mère",
           "s": "open",
           "l": "à vérifier",
-          "d": "Après la rencontre dans l'espace parallèle, le joueur envisage un lien familial : ressemblance de renards, différence de taille compatible avec adulte et enfant, gestes interprétés comme affectueux. Aucun lien de parenté établi. Après le dépôt des clés, elle attaque le personnage : ce fait trouble le joueur sans suffire à démontrer ou réfuter leur parenté."
+          "d": "J'ai envisagé un lien mère-enfant à cause de notre ressemblance, de notre différence de taille et de ses gestes affectueux. Son attaque puis notre confrontation troublent cette idée sans prouver ou réfuter notre parenté."
         },
         {
           "h": "H19",
@@ -845,56 +922,56 @@ window.CARTE = {
           "n": "Je pourrais être l'Avatar évoqué par les fantômes",
           "s": "open",
           "l": "conviction actuelle",
-          "d": "Le joueur s'identifie désormais fortement à l'Avatar, en rapprochant la Sépulture, les fantômes, les copies de lui-même et des pages du manuel montrant la confrontation avec la renarde."
+          "d": "La Sépulture, les fantômes, mes doubles et les pages du manuel me font de plus en plus penser que je suis l'Avatar."
         },
         {
           "h": "H21",
           "n": "Les fantômes reprochent peut-être à l'Avatar d'avoir libéré la renarde",
           "s": "open",
           "l": "à vérifier",
-          "d": "Interprétation de l'expression « Avatar imbécile » après l'attaque de la renarde ; on ignore si la phrase vise le personnage et ce qu'elle désigne."
+          "d": "Les fantômes parlent d'un « Avatar imbécile ». Je me demande s'ils me reprochent d'avoir libéré la renarde, mais je ne connais pas leur véritable intention."
         },
         {
           "h": "H22",
           "n": "Je pourrais être l'une des copies rencontrées dans la Cathédrale",
           "s": "open",
           "l": "à vérifier",
-          "d": "Des doubles conformes au personnage paraissent vénérer une statue de la renarde ; origine de ces doubles inconnue."
+          "d": "J'ai affronté des doubles parfaits de moi-même, qui semblent vénérer la renarde. Je ne sais pas si nous partageons une origine."
         },
         {
           "h": "H23",
           "n": "Chaque mort pourrait faire revenir une nouvelle copie de moi",
           "s": "open",
           "l": "à vérifier",
-          "d": "Question soulevée après avoir rencontré des doubles identiques : est-ce le même personnage qui revient à la vie après chaque mort ?"
+          "d": "J'ai vu des doubles identiques à moi et je me demande si chaque mort fait revenir une nouvelle copie."
         },
         {
           "h": "H24",
           "n": "J'ai peut-être été manipulé pour libérer la renarde",
           "s": "open",
           "l": "à vérifier",
-          "d": "Le joueur envisage une méprise ou une manipulation : après avoir perdu la mémoire, il pensait devoir la libérer, alors que les pages du manuel suggèrent selon lui un cycle de confrontation et de remplacement."
+          "d": "J'ai peut-être été trompé ou guidé par une mémoire incomplète : je croyais devoir libérer la renarde, alors que le manuel évoque un cycle de confrontation et de remplacement."
         },
         {
           "h": "H25",
           "n": "Je pourrais avoir été créé par le peuple des renards",
           "s": "open",
           "l": "à vérifier",
-          "d": "L'appellation « Avatar », les multiples copies et les représentations du manuel font imaginer au joueur une création destinée à affronter la renarde blanche ; aucun créateur n'est identifié."
+          "d": "Le mot « Avatar », mes copies et les images du manuel me font envisager une création destinée à affronter la renarde. Je n'ai aucune preuve d'un créateur."
         },
         {
           "h": "H26",
-          "n": "L'Avatar affronterait la renarde en boucle jusqu'à prendre sa place",
+          "n": "Je suis amené à affronter la renarde et à prendre sa place",
           "s": "open",
-          "l": "cycle écrit ; issue supposée",
-          "d": "Sur les pages 7–8, « confrontation répétée d'innombrables fois » est une mention explicite. L'idée que l'Avatar finisse par vaincre la renarde blanche et prendre sa place est une interprétation de la suite des images ; la couronne figure également sur ces illustrations."
+          "l": "remplacement vécu ; cycle obscur",
+          "d": "Le manuel parle explicitement de confrontations répétées d'innombrables fois. J'ai maintenant vaincu la renarde et me suis retrouvé enfermé à sa place. Le mécanisme du cycle au-delà de mon expérience reste à comprendre."
         },
         {
           "h": "H27",
           "n": "Mon peuple serait mort et visible seulement sous forme de fantômes",
           "s": "open",
           "l": "à vérifier",
-          "d": "Impression née du fait que le joueur ne semble voir des êtres semblables à lui que dans un état fantomatique ; cela ne prouve ni la mort de tout un peuple ni la nature du monde parallèle."
+          "d": "J'ai eu l'impression de ne rencontrer des êtres semblables à moi que sous forme de fantômes ; cela ne prouve ni la mort de tout un peuple ni la nature du monde parallèle."
         },
         {
           "h": "H28",
@@ -908,7 +985,28 @@ window.CARTE = {
           "n": "L'écriture de Tunic serait fondée sur des sons anglais",
           "s": "open",
           "l": "hypothèse linguistique",
-          "d": "Le joueur compare la page 21 à des mots anglais ; les correspondances lettre à lettre ne fonctionnent pas à ses yeux, d'où la piste d'un système fondé sur les sons. Aucun déchiffrement définitif n'a été obtenu."
+          "d": "J'ai comparé la page 21 à des mots anglais sans trouver de correspondance lettre à lettre convaincante. J'envisage un système fondé sur les sons, sans avoir pu le déchiffrer."
+        },
+        {
+          "h": "H30",
+          "n": "La renarde pourrait être une précédente Avatar",
+          "d": "Puisque je l'ai vaincue et me suis retrouvé enfermé à sa place, je me demande si elle n'avait pas elle-même succédé à un autre Avatar. Elle pourrait être à la fois victime du cycle et participante à sa perpétuation.",
+          "s": "open",
+          "l": "nouvelle hypothèse"
+        },
+        {
+          "h": "H31",
+          "n": "J'aurais déjà visité la réunion secrète avant de l'oublier",
+          "d": "La case « réunion secrète » apparaît cochée, mais je ne sais pas où se trouve ce lieu. Peut-être y suis-je déjà allé avant une perte de mémoire, et les pages retrouvées restitueraient certains souvenirs. Je ne connais ni la chronologie de la case ni le moment où j'ai récupéré cette page.",
+          "s": "open",
+          "l": "mémoire et chronologie incertaines"
+        },
+        {
+          "h": "H32",
+          "n": "Les âmes, la réunion secrète et la porte de la montagne seraient liées",
+          "d": "Je pressens un lien entre les motifs des Saintes Croix, la liste des êtres à libérer, le trésor final et l'énigme de la porte de la montagne ; ce rapprochement reste une intuition.",
+          "s": "open",
+          "l": "lien supposé"
         }
       ]
     },
@@ -920,7 +1018,7 @@ window.CARTE = {
       "plain": true,
       "items": [
         {
-          "n": "Que protègent les gardes ? D'où vient le personnage ?",
+          "n": "Que protègent les gardes ? D'où est-ce que je viens ?",
           "sub": [
             "Ce sont des fantômes qui executent en boucle le dernier ordre qu'ils ont reçu"
           ]
@@ -949,9 +1047,9 @@ window.CARTE = {
           "d": "Oui : plusieurs accès découverts depuis différents endroits, débouchant autour de la Sépulture suspendue. Emplacements précis non mémorisés."
         },
         {
-          "n": "Quel lien entre le personnage et l'Avatar ?",
+          "n": "Quel lien existe entre moi et l'Avatar ?",
           "sub": [
-            "théorie : c'est notre prorpe sépulture"
+            "Et si cette sépulture était la mienne ?"
           ]
         },
         {
@@ -967,12 +1065,12 @@ window.CARTE = {
           "l": "résolu"
         },
         {
-          "n": "Qui est la renarde, quel est le rôle du personnage ?",
+          "n": "Qui est la renarde, et quel est mon rôle ?",
           "sub": [
-            "Le joueur espère qu'elle est une victime ou une opposante, mais craint qu'elle participe à l'exploitation",
+            "J'espérais qu'elle soit une victime ou une opposante, mais je craignais qu'elle participe à l'exploitation.",
             "Espèce, intentions et raison de son enfermement inconnues",
-            "Le personnage est-il un jeune grand renard, un individu d'une autre taille ou d'une autre espèce ?",
-            "H18 : existe-t-il un lien mère-enfant entre la renarde blanche et le protagoniste ?"
+            "Suis-je un jeune grand renard, un petit adulte ou membre d'une autre espèce ?",
+            "H18 : la renarde blanche pourrait-elle être ma mère ?"
           ]
         },
         {
@@ -980,20 +1078,22 @@ window.CARTE = {
           "d": "Les Charognards participent-ils à l'ensemble du système ? Quel est le rôle des autres peuples ?"
         },
         {
-          "n": "Pourquoi les tourelles ciblent-elles le personnage ?",
-          "d": "Ciblage sélectif observé dans le laboratoire ; origine et critères inconnus"
+          "n": "Pourquoi les tourelles me ciblent-elles ?",
+          "d": "J'ai observé un ciblage sélectif dans le laboratoire ; je ne sais pas selon quels critères les tourelles agissent."
         },
         {
           "n": "Pourquoi les capsules sont-elles noires ou grises ?",
           "d": "Évolution avec le temps, différents états ou modification de la technologie ?"
         },
         {
-          "n": "Le manuel appartient-il au personnage ?",
-          "d": "Et s'il avait perdu la mémoire d'une exploration précédente ?"
+          "n": "Le manuel m'appartient-il ?",
+          "d": "Et si ces pages provenaient d'un carnet que j'avais rédigé avant une perte de mémoire ?"
         },
         {
-          "n": "Réunir les trois clés marque-t-il vraiment la fin de l'histoire ?",
-          "d": "Impression persistante de mystères non résolus ; prochaine étape au temple doré"
+          "n": "Ma première fin raconte-t-elle toute l'histoire ?",
+          "d": "Non : j'ai obtenu une conclusion après le combat, mais il me manque encore des pages du manuel. Je veux comprendre ce qui se cache derrière cette succession.",
+          "s": "ok",
+          "l": "première conclusion obtenue"
         },
         {
           "n": "Pourquoi la renarde attaque-t-elle après le dépôt des trois clés ?",
@@ -1004,8 +1104,10 @@ window.CARTE = {
           "d": "Un cristal semble libéré, la renarde n'est plus dans sa prison habituelle et une rencontre a lieu près de l'épée"
         },
         {
-          "n": "Que signifie le nouvel état du personnage sur la plage ?",
-          "d": "Après la défaite face à la renarde, retour à l'endroit du début sous une apparence semblable au monde parallèle ; tests à effectuer"
+          "n": "Pourquoi ai-je été transformé en fantôme ?",
+          "d": "Après ma première défaite contre la renarde, j'ai été renvoyé sur la plage sous forme fantomatique. Les objets des sépultures ont ensuite restauré mes caractéristiques et ma forme normale.",
+          "s": "open",
+          "l": "mécanisme observé ; raison inconnue"
         },
         {
           "n": "Le monde parallèle a-t-il changé à cause des trois clés ou de la défaite ?",
@@ -1021,7 +1123,7 @@ window.CARTE = {
         },
         {
           "n": "À chaque mort, est-ce moi qui reviens ou une nouvelle copie ?",
-          "d": "Question sur l'identité et la continuité du personnage, encore sans réponse"
+          "d": "Je m'interroge encore sur la continuité de mon identité d'une mort à l'autre."
         },
         {
           "n": "Pourquoi des copies semblent-elles exploiter un grand renard ?",
@@ -1033,23 +1135,23 @@ window.CARTE = {
         },
         {
           "n": "Quels endroits les Saintes Croix permettent-elles d'atteindre ?",
-          "d": "Mécanisme découvert, mais aucun nouvel emplacement précis n'a encore été détaillé dans le carnet"
+          "d": "Je sais maintenant que des motifs se cachent dans les tapis, la mousse, les fleurs et d'autres détails de l'environnement ; je cherche où ils mènent tous."
         },
         {
           "n": "L'Avatar a-t-il été créé, et par qui ?",
           "d": "Hypothèse de création par le peuple renard, motivée par le nom d'Avatar et la présence de plusieurs copies"
         },
         {
-          "n": "Pourquoi l'Avatar devrait-il vaincre la renarde et prendre sa place ?",
-          "d": "Les pages 7–8 mentionnent explicitement des confrontations innombrables ; la raison de ce cycle et la possibilité d'un remplacement restent inconnues."
+          "n": "Pourquoi suis-je condamné à remplacer la renarde ?",
+          "d": "Je l'ai vaincue et me suis retrouvé enfermé à sa place. Les pages 7–8 évoquent d'innombrables confrontations ; j'ignore qui a instauré ce cycle et dans quel but."
         },
         {
-          "n": "Le peuple du personnage est-il mort ?",
-          "d": "Le joueur croit l'apercevoir surtout sous forme fantomatique ; il ignore si ce monde est une autre dimension, une couche supplémentaire ou un état"
+          "n": "Mon peuple est-il mort ?",
+          "d": "J'ai surtout aperçu des êtres semblables à moi sous forme fantomatique ; j'ignore si ce monde est une autre dimension ou un état particulier."
         },
         {
           "n": "Quel rôle spirituel jouent les Saintes Croix ?",
-          "d": "Elles ouvrent de nouveaux accès, mais le joueur les considère surtout comme un indice des croyances du peuple renard"
+          "d": "Les Saintes Croix ouvrent de nouveaux accès, mais je les considérais aussi comme des indices des croyances du peuple renard."
         },
         {
           "n": "Comment fonctionne l'écriture inconnue du manuel ?",
@@ -1065,7 +1167,23 @@ window.CARTE = {
         },
         {
           "n": "Qui est désigné par « l'hoir » dans les pages 7–8 ?",
-          "d": "En français, « hoir » signifie « héritier » (terme vieilli), mais le joueur ne sait pas si le titre concerne la renarde blanche, son Avatar ou une relation entre les deux."
+          "d": "« Hoir » signifie « héritier » en ancien français ; je ne sais pas si ce titre désigne la renarde, l'Avatar ou leur relation."
+        },
+        {
+          "n": "Où se trouve exactement la réunion secrète ?",
+          "d": "La case est déjà cochée dans mon manuel, mais je n'identifie pas le lieu ni l'action qui l'a validée. J'ignore même si la page était en ma possession avant mes premières libérations."
+        },
+        {
+          "n": "Que sont les êtres que je libère ?",
+          "d": "Je les appelle provisoirement « âmes ». Quel est leur lien avec la salle derrière la cascade, la réunion secrète et le trésor final ?"
+        },
+        {
+          "n": "Que cache la porte de la montagne ?",
+          "d": "Je n'ai pas résolu son code. Je soupçonne un rapport avec d'autres motifs et des pages du manuel, mais je ne veux pas présumer de la solution."
+        },
+        {
+          "n": "La renarde a-t-elle elle-même remplacé une autre Avatar ?",
+          "d": "Mon propre emprisonnement après sa défaite me fait envisager qu'elle ait occupé avant moi un rôle transmis de la même manière."
         }
       ]
     },
@@ -1121,7 +1239,7 @@ window.CARTE = {
         },
         {
           "n": "La renarde attaque après les trois clés",
-          "d": "Très grand trouble : après avoir espéré la libérer et imaginé un lien maternel, le joueur découvre son absence au lieu de détention, la retrouve près de l'épée puis se fait vaincre en un coup ; envie immédiate de tester ce qui a changé"
+          "d": "J'ai été bouleversé : je voulais la libérer et j'avais imaginé qu'elle puisse être ma mère. Je l'ai retrouvée près de l'épée, et elle m'a vaincu en un coup."
         },
         {
           "n": "Monde parallèle bouleversé",
@@ -1132,8 +1250,8 @@ window.CARTE = {
           "d": "Grande inquiétude et déroutement face aux échos rouges, aux copies conformes, au culte apparent de la renarde et aux nombreux crânes"
         },
         {
-          "n": "Doute sur sa propre existence",
-          "d": "Le joueur se demande s'il est lui-même un double et si chaque mort ramène le même être ou une copie ; peur d'avoir été manipulé"
+          "n": "Doute sur ma propre existence",
+          "d": "Je me demande si je suis moi-même un double et si chaque mort me ramène réellement à la vie ou laisse place à une copie."
         },
         {
           "n": "Couronne et découverte du dash",
@@ -1141,11 +1259,11 @@ window.CARTE = {
         },
         {
           "n": "Découverte des Saintes Croix",
-          "d": "Émerveillement et enthousiasme : le joueur découvre encore de nouvelles façons d'accéder au monde, même après avoir obtenu les trois clés et la couronne"
+          "d": "J'ai été émerveillé de découvrir de nouveaux accès malgré les trois clés et la couronne déjà obtenues."
         },
         {
           "n": "Dash et Saintes Croix : deux découvertes différentes",
-          "d": "La couronne semble préparer un affrontement raconté dans le manuel ; les Saintes Croix éveillent surtout la curiosité culturelle et spirituelle du joueur"
+          "d": "La couronne me semblait préparer une confrontation annoncée par le manuel ; les Saintes Croix attisaient surtout ma curiosité culturelle et spirituelle."
         },
         {
           "n": "Doute sur la mission et son origine",
@@ -1157,7 +1275,23 @@ window.CARTE = {
         },
         {
           "n": "Vertige devant la page 49",
-          "d": "Frustration vive : le joueur sent qu'une relation lui échappe et qu'un indice décisif est peut-être juste sous ses yeux."
+          "d": "Je me suis senti frustré, persuadé qu'un lien entre les indices se trouvait juste sous mes yeux sans que je parvienne à le voir."
+        },
+        {
+          "n": "Frustration devant l'impasse",
+          "d": "J'ai eu l'impression d'avoir tout exploré et de ne plus savoir quoi faire. Récupérer le dernier objet des sépultures ne m'a pas immédiatement donné une nouvelle direction."
+        },
+        {
+          "n": "Première fin : insatisfaction et questions",
+          "d": "J'ai trouvé trop simple de finir enfermé à la place de la renarde. Je connais le résultat de notre affrontement, mais pas les raisons du cycle. Le message sur les pages manquantes m'a soulagé et donné envie de continuer."
+        },
+        {
+          "n": "Eurêka sur les Saintes Croix",
+          "d": "J'ai reconnu dans le sol du temple un motif présenté par le manuel, puis j'ai réalisé que les fleurs, les murs, les tapis et d'autres décors pouvaient cacher des séquences. Cette découverte a relancé mon enthousiasme."
+        },
+        {
+          "n": "Réunion secrète : souvenir incertain",
+          "d": "Je suis troublé de voir la case déjà cochée sans pouvoir localiser le lieu. Je n'arrive pas à reconstituer quand j'ai obtenu la page ni quand la condition a été remplie."
         }
       ]
     }

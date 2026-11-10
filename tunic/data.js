@@ -284,6 +284,15 @@ window.CARTE = {
           "d": "Nouvelle possibilité d'accès à des lieux ou passages, en complément de la couronne et du dash"
         },
         {
+          "n": "Confrontation annoncée par le manuel",
+          "s": "open",
+          "l": "à éclaircir",
+          "d": "Selon l'interprétation actuelle des nouvelles pages, l'Avatar devrait affronter la renarde blanche de manière répétée et prendre sa place après l'avoir vaincue",
+          "sub": [
+            "Les illustrations montrent la couronne et semblent faire du dash une préparation à ce combat"
+          ]
+        },
+        {
           "n": "Rencontre après les trois clés",
           "s": "open",
           "l": "conséquences à explorer",
@@ -339,7 +348,10 @@ window.CARTE = {
             "Pages supplémentaires récupérées dans la dernière session (numéros à préciser)",
             "Page sur le marécage de l'ancien cimetière, les fantômes et une tête partiellement squelettique",
             "Informations sur les Charognards et leur Matriarche",
-            "Mention de la Cathédrale comme nouvelle piste d'exploration"
+            "Mention de la Cathédrale comme nouvelle piste d'exploration",
+            "Pages interprétées comme montrant l'Avatar affrontant la renarde blanche à répétition, jusqu'à la vaincre puis prendre sa place",
+            "L'Avatar est représenté portant la couronne lors de cette confrontation",
+            "Cette lecture du manuel reste à confirmer ; le nom de la renarde entendu comme « Koir » est incertain"
           ],
           "s": "open",
           "l": "nouvelles pages"
@@ -369,7 +381,11 @@ window.CARTE = {
           "n": "Couronne",
           "s": "ok",
           "l": "récupérée",
-          "d": "Obtenue à l'issue des épreuves de la Cathédrale ; confère la capacité de dash"
+          "d": "Obtenue à l'issue des épreuves de la Cathédrale ; confère la capacité de dash",
+          "sub": [
+            "Sur des illustrations du manuel, le personnage semble porter la couronne pendant la confrontation avec la renarde",
+            "Le joueur considère désormais le dash comme un élément de l'arsenal nécessaire à ce combat"
+          ]
         }
       ]
     },
@@ -404,7 +420,9 @@ window.CARTE = {
           "d": "Après la défaite contre la renarde, le personnage apparaît sur la plage dans un état semblable à celui des fantômes",
           "sub": [
             "Le monde parallèle a changé ; ses fantômes sont désormais visibles et certaines paroles deviennent partiellement compréhensibles",
-            "Question : après chaque mort, est-ce le même personnage qui revient ou une copie ?"
+            "Question : après chaque mort, est-ce le même personnage qui revient ou une copie ?",
+            "Le joueur envisage que ce monde soit une dimension parallèle, une couche supplémentaire de réalité ou un état particulier, sans trancher",
+            "Il a l'impression de ne rencontrer les siens que sous une forme fantomatique"
           ]
         },
         {
@@ -452,10 +470,12 @@ window.CARTE = {
           "n": "Saintes Croix",
           "s": "ok",
           "l": "découvertes",
-          "d": "Nouveau mécanisme identifié par le joueur : permet désormais d'accéder à certains endroits auparavant inaccessibles",
+          "d": "Mécanisme ouvrant l'accès à de nouveaux endroits ; le joueur y voit aussi un élément culturel et spirituel renseignant sur les croyances du peuple renard",
           "sub": [
             "Fonctionnement exact et lieux concernés à préciser lors d'un prochain compte rendu",
-            "Découverte distincte de la capacité de dash obtenue avec la couronne"
+            "Découverte distincte de la capacité de dash obtenue avec la couronne",
+            "Contrairement au dash, les Saintes Croix lui paraissent apporter surtout des connaissances sur le peuple et sa spiritualité",
+            "Les lieux précis et le fonctionnement détaillé restent à compléter"
           ]
         }
       ]
@@ -473,7 +493,10 @@ window.CARTE = {
             "Taille et espèce encore incertaines : jeune grand renard, adulte plus petit ou autre espèce ?",
             "Représentation de sa tête sous un aspect partiellement squelettique dans une page sur le cimetière",
             "Après la confrontation avec la renarde, son nouvel état ressemble visuellement à celui des fantômes du monde parallèle",
-            "À la Cathédrale, rencontre des doubles rouges et des copies à son image"
+            "À la Cathédrale, rencontre des doubles rouges et des copies à son image",
+            "Le joueur est de plus en plus convaincu qu'il s'agit de l'Avatar du manuel",
+            "Nouvelle théorie : cet Avatar pourrait avoir été créé par le peuple renard pour affronter la renarde blanche",
+            "Les copies rencontrées au cimetière et dans la Cathédrale alimentent cette interrogation sur son origine"
           ]
         },
         {
@@ -511,7 +534,9 @@ window.CARTE = {
             "Nouvelle hypothèse : elle serait peut-être la mère du personnage, en raison de sa taille, de leur ressemblance et de gestes perçus comme affectueux",
             "Après le dépôt des trois clés, absente de l'espace parallèle à l'endroit où elle était retenue",
             "Retrouvée près de l'épée dans une autre salle ; elle attaque le personnage et le vainc en un coup",
-            "Son identité, ses motivations et la nature de cette attaque restent inconnues"
+            "Son identité, ses motivations et la nature de cette attaque restent inconnues",
+            "Le joueur pense désormais que des pages du manuel le montrent destiné à l'affronter de façon répétée, jusqu'à prendre sa place",
+            "Cette nouvelle lecture remet en question sa conviction initiale qu'il devait simplement la libérer"
           ]
         },
         {
@@ -566,6 +591,17 @@ window.CARTE = {
           "s": "ok",
           "l": "vaincu",
           "d": "Figure à l'apparence inhabituelle, plutôt grande, rencontrée dans le château ; détenait la clé verte volée"
+        },
+        {
+          "n": "Croyances du peuple renard",
+          "s": "open",
+          "l": "à comprendre",
+          "d": "Le joueur perçoit une forte dimension spirituelle, notamment à travers les Saintes Croix, les statues et les pratiques observées",
+          "sub": [
+            "Hypothèse : le peuple renard aurait autrefois vénéré de grands renards chargés d'énergie",
+            "Ces êtres pourraient ressembler à ceux aujourd'hui enfermés dans des capsules par les Charognards",
+            "La relation historique exacte entre culte, grands renards et exploitation reste inconnue"
+          ]
         }
       ]
     },
@@ -699,7 +735,7 @@ window.CARTE = {
           "n": "Mon personnage a perdu la mémoire",
           "s": "open",
           "l": "à vérifier",
-          "d": "Il aurait vécu ou exploré ce monde avant son réveil sur la plage, sans s'en souvenir"
+          "d": "Hypothèse de perte de mémoire : le joueur envisage désormais qu'elle l'ait amené à croire qu'il devait libérer la renarde, alors que les pages du manuel semblent lui assigner une autre mission."
         },
         {
           "h": "H14",
@@ -747,8 +783,8 @@ window.CARTE = {
           "h": "H20",
           "n": "Je pourrais être l'Avatar évoqué par les fantômes",
           "s": "open",
-          "l": "à vérifier",
-          "d": "Hypothèse fondée sur la Sépulture de l'Avatar, le nouvel état du personnage et des paroles partiellement comprises dans le monde parallèle."
+          "l": "conviction actuelle",
+          "d": "Le joueur s'identifie désormais fortement à l'Avatar, en rapprochant la Sépulture, les fantômes, les copies de lui-même et des pages du manuel montrant la confrontation avec la renarde."
         },
         {
           "h": "H21",
@@ -776,7 +812,35 @@ window.CARTE = {
           "n": "J'ai peut-être été manipulé pour libérer la renarde",
           "s": "open",
           "l": "à vérifier",
-          "d": "Après l'attaque de la renarde, les paroles des fantômes et le culte rendu par les doubles, le joueur s'interroge sur les motivations qui l'ont conduit à placer les clés."
+          "d": "Le joueur envisage une méprise ou une manipulation : après avoir perdu la mémoire, il pensait devoir la libérer, alors que les pages du manuel suggèrent selon lui un cycle de confrontation et de remplacement."
+        },
+        {
+          "h": "H25",
+          "n": "Je pourrais avoir été créé par le peuple des renards",
+          "s": "open",
+          "l": "à vérifier",
+          "d": "L'appellation « Avatar », les multiples copies et les représentations du manuel font imaginer au joueur une création destinée à affronter la renarde blanche ; aucun créateur n'est identifié."
+        },
+        {
+          "h": "H26",
+          "n": "L'Avatar affronterait la renarde en boucle jusqu'à prendre sa place",
+          "s": "open",
+          "l": "interprétation du manuel",
+          "d": "Le joueur dit avoir trouvé des pages représentant la confrontation répétée, puis la défaite de la renarde et son remplacement. La couronne apparaît sur les illustrations."
+        },
+        {
+          "h": "H27",
+          "n": "Mon peuple serait mort et visible seulement sous forme de fantômes",
+          "s": "open",
+          "l": "à vérifier",
+          "d": "Impression née du fait que le joueur ne semble voir des êtres semblables à lui que dans un état fantomatique ; cela ne prouve ni la mort de tout un peuple ni la nature du monde parallèle."
+        },
+        {
+          "h": "H28",
+          "n": "Le peuple renard aurait adoré les grands renards énergétiques",
+          "s": "open",
+          "l": "à vérifier",
+          "d": "Interprétation culturelle des Saintes Croix, des statues et des scènes de culte : les êtres autrefois vénérés pourraient être apparentés à ceux exploités dans les capsules par les Charognards."
         }
       ]
     },
@@ -902,6 +966,22 @@ window.CARTE = {
         {
           "n": "Quels endroits les Saintes Croix permettent-elles d'atteindre ?",
           "d": "Mécanisme découvert, mais aucun nouvel emplacement précis n'a encore été détaillé dans le carnet"
+        },
+        {
+          "n": "L'Avatar a-t-il été créé, et par qui ?",
+          "d": "Hypothèse de création par le peuple renard, motivée par le nom d'Avatar et la présence de plusieurs copies"
+        },
+        {
+          "n": "Pourquoi l'Avatar devrait-il vaincre la renarde et prendre sa place ?",
+          "d": "Cycle supposé à partir de nouvelles pages du manuel ; fonction, causes et conséquences inconnues"
+        },
+        {
+          "n": "Le peuple du personnage est-il mort ?",
+          "d": "Le joueur croit l'apercevoir surtout sous forme fantomatique ; il ignore si ce monde est une autre dimension, une couche supplémentaire ou un état"
+        },
+        {
+          "n": "Quel rôle spirituel jouent les Saintes Croix ?",
+          "d": "Elles ouvrent de nouveaux accès, mais le joueur les considère surtout comme un indice des croyances du peuple renard"
         }
       ]
     },
@@ -978,6 +1058,14 @@ window.CARTE = {
         {
           "n": "Découverte des Saintes Croix",
           "d": "Émerveillement et enthousiasme : le joueur découvre encore de nouvelles façons d'accéder au monde, même après avoir obtenu les trois clés et la couronne"
+        },
+        {
+          "n": "Dash et Saintes Croix : deux découvertes différentes",
+          "d": "La couronne semble préparer un affrontement raconté dans le manuel ; les Saintes Croix éveillent surtout la curiosité culturelle et spirituelle du joueur"
+        },
+        {
+          "n": "Doute sur la mission et son origine",
+          "d": "Trouble en envisageant qu'il soit un Avatar créé, sans mémoire, et destiné non pas à libérer la renarde mais à la combattre pour la remplacer"
         }
       ]
     }

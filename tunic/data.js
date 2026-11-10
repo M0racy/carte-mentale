@@ -101,7 +101,8 @@ window.CARTE = {
             "J'ai rencontré des fantômes qui ressemblaient à mon état d'alors.",
             "Fragments de paroles compréhensibles : « Avatar imbécile », allusion possible à une quatrième clé, mention d'un engin de siège",
             "Le sens exact de leurs paroles et du changement de monde reste inconnu",
-            "Après avoir récupéré les objets des sépultures, j'ai retrouvé ma forme normale."
+            "Après avoir récupéré les objets des sépultures, j'ai retrouvé ma forme normale.",
+            "Même après mon retour à la vie, le monde ne retrouve pas automatiquement son aspect d'avant ma première confrontation avec la renarde."
           ]
         },
         {
@@ -488,7 +489,8 @@ window.CARTE = {
             "Le monde parallèle a changé ; ses fantômes sont désormais visibles et certaines paroles deviennent partiellement compréhensibles",
             "Chaque mort me ramène-t-elle vraiment à la vie, ou une autre copie prend-elle ma place ?",
             "Je ne sais pas si ce monde est une dimension parallèle, une couche supplémentaire de réalité ou un état particulier.",
-            "Il a l'impression de ne rencontrer les siens que sous une forme fantomatique"
+            "Il a l'impression de ne rencontrer les siens que sous une forme fantomatique",
+            "Après avoir récupéré tous les objets des sépultures, j'ai retrouvé ma forme vivante. Pourtant, les modifications du monde restent visibles et certains passages demeurent bloqués par une matière dangereuse."
           ]
         },
         {
@@ -754,7 +756,8 @@ window.CARTE = {
             "Hors des conduits, en s'en approchant, la longueur maximale de la jauge de vie diminue",
             "La mine est un lieu d'extraction observé, pas une preuve de sa source originelle",
             "Nouvelles observations : renards enfermés dans de nombreuses capsules près des installations",
-            "Le lien exact entre leur enfermement et l'alimentation énergétique reste hypothétique"
+            "Le lien exact entre leur enfermement et l'alimentation énergétique reste hypothétique",
+            "J'appelle provisoirement « matière Renard » les substances dangereuses qui persistent dans le monde et bloquent encore certains passages après mon retour à la vie ; je ne sais pas si toutes ces manifestations ont la même origine."
           ]
         },
         {
@@ -791,6 +794,17 @@ window.CARTE = {
         {
           "n": "Pièces dissimulées",
           "d": "Lumière et ambiance sonore particulières"
+        },
+        {
+          "n": "« Matière Renard » (nom provisoire)",
+          "d": "Nom que je donne à la substance dangereuse qui occupe encore certains passages du monde transformé et peut me blesser ou réduire ma jauge de vie.",
+          "s": "open",
+          "l": "nature inconnue",
+          "sub": [
+            "Je l'ai observée après ma première défaite contre la renarde.",
+            "Elle est toujours présente même après que j'ai retrouvé ma forme vivante.",
+            "Je n'ai pas établi son origine ni la raison de sa persistance."
+          ]
         }
       ]
     },
@@ -1111,7 +1125,7 @@ window.CARTE = {
         },
         {
           "n": "Le monde parallèle a-t-il changé à cause des trois clés ou de la défaite ?",
-          "d": "Émanations dangereuses, nouveaux fantômes et fragments de dialogues observés ; cause exacte non établie"
+          "d": "Le monde a changé après les trois clés et ma première défaite face à la renarde. Même en retrouvant ma forme vivante, je retrouve encore ses altérations et des passages bloqués par la « matière Renard ». Je ne sais pas quel événement les a provoquées."
         },
         {
           "n": "Que veulent dire « Avatar imbécile », « quatrième clé » et « engin de siège » ?",
@@ -1184,6 +1198,10 @@ window.CARTE = {
         {
           "n": "La renarde a-t-elle elle-même remplacé une autre Avatar ?",
           "d": "Mon propre emprisonnement après sa défaite me fait envisager qu'elle ait occupé avant moi un rôle transmis de la même manière."
+        },
+        {
+          "n": "Pourquoi le monde ne revient-il pas à son état initial ?",
+          "d": "J'ai retrouvé ma forme normale après les sépultures, mais la carte reste transformée et des zones sont encore bloquées par la « matière Renard ». Le retour à la vie ne suffit donc pas à inverser ces changements."
         }
       ]
     },
@@ -1292,6 +1310,10 @@ window.CARTE = {
         {
           "n": "Réunion secrète : souvenir incertain",
           "d": "Je suis troublé de voir la case déjà cochée sans pouvoir localiser le lieu. Je n'arrive pas à reconstituer quand j'ai obtenu la page ni quand la condition a été remplie."
+        },
+        {
+          "n": "Retour à la vie, monde inchangé",
+          "d": "Je pensais que retrouver mon corps ferait revenir la carte à son état initial. Je suis surpris et troublé de constater que le monde reste transformé et que la « matière Renard » bloque encore certains chemins."
         }
       ]
     }

@@ -26,7 +26,10 @@ window.CARTE = {
         },
         {
           "n": "Région Est",
-          "d": "Cloche de l'Est"
+          "d": "Cloche de l'Est",
+          "sub": [
+            "Forêt de l'Est : découverte d'une petite couronne dorée ramassée sans apparition dans l'inventaire ni effet immédiatement visible."
+          ]
         },
         {
           "n": "Biome plage-désert",
@@ -349,9 +352,12 @@ window.CARTE = {
             "Page sur le marécage de l'ancien cimetière, les fantômes et une tête partiellement squelettique",
             "Informations sur les Charognards et leur Matriarche",
             "Mention de la Cathédrale comme nouvelle piste d'exploration",
-            "Pages interprétées comme montrant l'Avatar affrontant la renarde blanche à répétition, jusqu'à la vaincre puis prendre sa place",
             "L'Avatar est représenté portant la couronne lors de cette confrontation",
-            "Cette lecture du manuel reste à confirmer ; le nom de la renarde entendu comme « Koir » est incertain"
+            "Pages 7–8 : le texte mentionne explicitement une « confrontation répétée d'innombrables fois » entre l'Avatar et la renarde blanche.",
+            "L'interprétation selon laquelle l'Avatar finit par la vaincre et prendre sa place demeure une hypothèse distincte de la répétition écrite.",
+            "Le terme « hoir » apparaît ou est lu dans ce contexte ; en français, « hoir » est un ancien mot signifiant « héritier », sans certitude sur le personnage concerné.",
+            "Page 21 : rapprochement en cours entre « The Ruined Atoll », « hints and clues » et les signes de la langue du jeu.",
+            "Page 49 : grille dorée de 5 × 5 nombres, deux groupes de signes en bas et un trait central terminé par un cercle ; sens encore inconnu."
           ],
           "s": "open",
           "l": "nouvelles pages"
@@ -385,6 +391,17 @@ window.CARTE = {
           "sub": [
             "Sur des illustrations du manuel, le personnage semble porter la couronne pendant la confrontation avec la renarde",
             "Le joueur considère désormais le dash comme un élément de l'arsenal nécessaire à ce combat"
+          ]
+        },
+        {
+          "n": "Couronne dorée (forêt de l'Est)",
+          "d": "Petit objet doré ramassé dans la forêt de l'Est, distinct de la couronne obtenue à la Cathédrale qui permet le dash.",
+          "s": "ok",
+          "l": "récupérée ; rôle inconnu",
+          "sub": [
+            "N'apparaît pas dans l'inventaire habituel après le ramassage.",
+            "Aucun changement constaté au nombre de potions, à l'épée, au bouclier, aux sorts ou objets accessibles.",
+            "Éventuel effet sur la jauge de vie impossible à confirmer sans mesure antérieure."
           ]
         }
       ]
@@ -476,6 +493,50 @@ window.CARTE = {
             "Découverte distincte de la capacité de dash obtenue avec la couronne",
             "Contrairement au dash, les Saintes Croix lui paraissent apporter surtout des connaissances sur le peuple et sa spiritualité",
             "Les lieux précis et le fonctionnement détaillé restent à compléter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "langue",
+      "name": "Langue et énigmes du manuel",
+      "c": "gold",
+      "side": "left",
+      "items": [
+        {
+          "n": "Passage du jeu en anglais",
+          "s": "ok",
+          "l": "effectué",
+          "d": "Le joueur a changé la langue d'interface pour comparer les expressions anglaises à l'écriture fictive, qu'il suppose stable entre traductions.",
+          "sub": [
+            "Il pense que l'écriture originale du jeu s'appuie sur l'anglais ; cela reste son hypothèse de travail."
+          ]
+        },
+        {
+          "n": "Page 21 — The Ruined Atoll",
+          "s": "open",
+          "l": "analyse en cours",
+          "d": "Comparaison de « The Ruined Atoll » et des signes correspondants dans les indices de la page 21 (« hints and clues »).",
+          "sub": [
+            "Un groupe de glyphes est supposé correspondre à « the ».",
+            "Deux traits semblent au joueur séparer des unités écrites.",
+            "Le nombre de caractères ne correspond pas directement aux lettres anglaises.",
+            "Piste envisagée : une transcription fondée sur des sons ou phonèmes plutôt que sur des lettres.",
+            "Le découpage en syllabes et phonèmes anglais a été étudié, sans établir le sens exact des glyphes."
+          ]
+        },
+        {
+          "n": "Page 49 — grille dorée",
+          "s": "open",
+          "l": "non résolue",
+          "d": "Grille de 25 nombres disposés sur cinq lignes et cinq colonnes, accompagnée d'inscriptions en langue fictive et d'un symbole vertical central.",
+          "sub": [
+            "Ligne 1 : 48, 11, 2, 6, 52",
+            "Ligne 2 : 27, 21, 4, 50, 42",
+            "Ligne 3 : 15, 22, 55, 31, 33",
+            "Ligne 4 : 46, 28, 9, 40, 18",
+            "Ligne 5 : 34, 16, 12, 39, 44",
+            "Le joueur pressent un lien avec d'autres découvertes, mais n'a pas encore trouvé la logique."
           ]
         }
       ]
@@ -825,8 +886,8 @@ window.CARTE = {
           "h": "H26",
           "n": "L'Avatar affronterait la renarde en boucle jusqu'à prendre sa place",
           "s": "open",
-          "l": "interprétation du manuel",
-          "d": "Le joueur dit avoir trouvé des pages représentant la confrontation répétée, puis la défaite de la renarde et son remplacement. La couronne apparaît sur les illustrations."
+          "l": "cycle écrit ; issue supposée",
+          "d": "Sur les pages 7–8, « confrontation répétée d'innombrables fois » est une mention explicite. L'idée que l'Avatar finisse par vaincre la renarde blanche et prendre sa place est une interprétation de la suite des images ; la couronne figure également sur ces illustrations."
         },
         {
           "h": "H27",
@@ -841,6 +902,13 @@ window.CARTE = {
           "s": "open",
           "l": "à vérifier",
           "d": "Interprétation culturelle des Saintes Croix, des statues et des scènes de culte : les êtres autrefois vénérés pourraient être apparentés à ceux exploités dans les capsules par les Charognards."
+        },
+        {
+          "h": "H29",
+          "n": "L'écriture de Tunic serait fondée sur des sons anglais",
+          "s": "open",
+          "l": "hypothèse linguistique",
+          "d": "Le joueur compare la page 21 à des mots anglais ; les correspondances lettre à lettre ne fonctionnent pas à ses yeux, d'où la piste d'un système fondé sur les sons. Aucun déchiffrement définitif n'a été obtenu."
         }
       ]
     },
@@ -973,7 +1041,7 @@ window.CARTE = {
         },
         {
           "n": "Pourquoi l'Avatar devrait-il vaincre la renarde et prendre sa place ?",
-          "d": "Cycle supposé à partir de nouvelles pages du manuel ; fonction, causes et conséquences inconnues"
+          "d": "Les pages 7–8 mentionnent explicitement des confrontations innombrables ; la raison de ce cycle et la possibilité d'un remplacement restent inconnues."
         },
         {
           "n": "Le peuple du personnage est-il mort ?",
@@ -982,6 +1050,22 @@ window.CARTE = {
         {
           "n": "Quel rôle spirituel jouent les Saintes Croix ?",
           "d": "Elles ouvrent de nouveaux accès, mais le joueur les considère surtout comme un indice des croyances du peuple renard"
+        },
+        {
+          "n": "Comment fonctionne l'écriture inconnue du manuel ?",
+          "d": "Les groupes de signes correspondent-ils à des lettres, des syllabes, des sons, ou à une autre structure ? À approfondir sans aide révélant la solution."
+        },
+        {
+          "n": "À quoi sert la grille dorée de la page 49 ?",
+          "d": "Les 25 nombres et les inscriptions semblent appeler une connexion avec d'autres indices ; aucun lien confirmé à ce stade."
+        },
+        {
+          "n": "À quoi sert la couronne dorée de la forêt de l'Est ?",
+          "d": "L'objet a été ramassé mais n'apparaît pas dans l'inventaire ; aucun effet concret observé, notamment sur les potions, les armes ou les sorts."
+        },
+        {
+          "n": "Qui est désigné par « l'hoir » dans les pages 7–8 ?",
+          "d": "En français, « hoir » signifie « héritier » (terme vieilli), mais le joueur ne sait pas si le titre concerne la renarde blanche, son Avatar ou une relation entre les deux."
         }
       ]
     },
@@ -1066,6 +1150,14 @@ window.CARTE = {
         {
           "n": "Doute sur la mission et son origine",
           "d": "Trouble en envisageant qu'il soit un Avatar créé, sans mémoire, et destiné non pas à libérer la renarde mais à la combattre pour la remplacer"
+        },
+        {
+          "n": "Déchiffrement de la langue",
+          "d": "Curiosité intense et plaisir d'explorer une hypothèse linguistique grâce aux mots anglais, aux segments de signes et au découpage phonétique."
+        },
+        {
+          "n": "Vertige devant la page 49",
+          "d": "Frustration vive : le joueur sent qu'une relation lui échappe et qu'un indice décisif est peut-être juste sous ses yeux."
         }
       ]
     }

@@ -102,7 +102,8 @@ window.CARTE = {
             "Fragments de paroles compréhensibles : « Avatar imbécile », allusion possible à une quatrième clé, mention d'un engin de siège",
             "Le sens exact de leurs paroles et du changement de monde reste inconnu",
             "Après avoir récupéré les objets des sépultures, j'ai retrouvé ma forme normale.",
-            "Même après mon retour à la vie, le monde ne retrouve pas automatiquement son aspect d'avant ma première confrontation avec la renarde."
+            "Même après mon retour à la vie, le monde ne retrouve pas automatiquement son aspect d'avant ma première confrontation avec la renarde.",
+            "J'ai ensuite compris qu'un lit permettait de revenir à la version diurne du monde."
           ]
         },
         {
@@ -369,6 +370,12 @@ window.CARTE = {
             "Le coffre contenait un objet décrit comme « objet secret » avec un numéro dont je ne me souviens pas précisément.",
             "Je ne connais pas encore l'utilité de cet objet."
           ]
+        },
+        {
+          "n": "Retour au monde de jour",
+          "d": "Après être redevenu vivant sans voir le monde changer, j'ai cherché un lit. En y dormant, j'ai réussi à retrouver le jour.",
+          "s": "ok",
+          "l": "confirmé"
         }
       ]
     },
@@ -506,7 +513,8 @@ window.CARTE = {
             "Chaque mort me ramène-t-elle vraiment à la vie, ou une autre copie prend-elle ma place ?",
             "Je ne sais pas si ce monde est une dimension parallèle, une couche supplémentaire de réalité ou un état particulier.",
             "Il a l'impression de ne rencontrer les siens que sous une forme fantomatique",
-            "Après avoir récupéré tous les objets des sépultures, j'ai retrouvé ma forme vivante. Pourtant, les modifications du monde restent visibles et certains passages demeurent bloqués par une matière dangereuse."
+            "Après avoir récupéré tous les objets des sépultures, j'ai retrouvé ma forme vivante. Pourtant, les modifications du monde restent visibles et certains passages demeurent bloqués par une matière dangereuse.",
+            "J'ai vérifié que retrouver ma forme vivante et retrouver le monde de jour sont deux étapes distinctes : le sommeil permet le second changement."
           ]
         },
         {
@@ -573,6 +581,16 @@ window.CARTE = {
             "Certains motifs permettent de retrouver des êtres que j'appelle provisoirement « âmes ».",
             "Je peux les libérer dans une salle dont je situe encore mal l'emplacement.",
             "Leur libération semble faire progresser une liste du manuel."
+          ]
+        },
+        {
+          "n": "Dormir dans un lit : retrouver le jour",
+          "d": "J'ai formulé l'hypothèse que dormir me ferait revenir au monde de jour. J'ai trouvé un lit, essayé et constaté que cela fonctionne.",
+          "s": "ok",
+          "l": "confirmé",
+          "sub": [
+            "Retrouver ma forme vivante grâce aux sépultures ne suffisait pas à remettre la carte dans son état de jour.",
+            "Le sommeil me permet de revenir à la version diurne du monde ; je n'ai pas encore détaillé tous les changements de chemins."
           ]
         }
       ]
@@ -1224,8 +1242,10 @@ window.CARTE = {
           "d": "Mon propre emprisonnement après sa défaite me fait envisager qu'elle ait occupé avant moi un rôle transmis de la même manière."
         },
         {
-          "n": "Pourquoi le monde ne revient-il pas à son état initial ?",
-          "d": "J'ai retrouvé ma forme normale après les sépultures, mais la carte reste transformée et des zones sont encore bloquées par la « matière Renard ». Le retour à la vie ne suffit donc pas à inverser ces changements."
+          "n": "Comment revenir au monde de jour ?",
+          "d": "Mon retour à la vie n'a pas rétabli le jour, mais mon intuition de chercher un lit était juste : dormir fonctionne. Les différences exactes entre les deux états du monde restent à explorer.",
+          "s": "ok",
+          "l": "résolu par le sommeil"
         },
         {
           "n": "Les objets secrets font-ils avancer les cases du manuel ?",
@@ -1342,6 +1362,12 @@ window.CARTE = {
         {
           "n": "Retour à la vie, monde inchangé",
           "d": "Je pensais que retrouver mon corps ferait revenir la carte à son état initial. Je suis surpris et troublé de constater que le monde reste transformé et que la « matière Renard » bloque encore certains chemins."
+        },
+        {
+          "n": "Eurêka : le lit fonctionne !",
+          "d": "Après avoir retrouvé mon corps sans faire revenir le jour, j'ai imaginé que dormir pouvait modifier l'état du monde. J'ai essayé : ça marche !",
+          "s": "ok",
+          "l": "déclic"
         }
       ]
     }

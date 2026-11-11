@@ -1,7 +1,7 @@
 // Contenu de la carte mentale. Modifie ce fichier (ou exporte-le depuis le mode Modifier du site).
 window.CARTE = {
   "title": "Tunic · carte mentale",
-  "subtitle": "Mon carnet d'exploration · mis à jour le 10 novembre 2026",
+  "subtitle": "Mon carnet d'exploration · bilan du 12 novembre 2026",
   "core": {
     "t": "TUNIC",
     "s": "carnet en cours"
@@ -153,7 +153,8 @@ window.CARTE = {
             "Certaines zones sont encore à explorer",
             "Plusieurs renards squelettiques retrouvés dans des capsules",
             "Capsules noires et grises observées : leur différence reste inconnue",
-            "Une créature a été vue hurlant et se tordant au moment de l'enfermement"
+            "Une créature a été vue hurlant et se tordant au moment de l'enfermement",
+            "Les montagnes et installations du Nord font partie des lieux que j'ai le moins aimés habiter, car leur atmosphère et les scènes des capsules me mettent profondément mal à l'aise."
           ]
         },
         {
@@ -215,11 +216,13 @@ window.CARTE = {
         },
         {
           "n": "Porte de la montagne",
-          "d": "Grande porte dont je n'ai pas encore déchiffré le code. Elle reste une énigme en cours, distincte de l'accès au dernier objet des sépultures.",
-          "s": "open",
-          "l": "code non résolu",
+          "d": "J'ai recomposé l'itinéraire doré à partir du manuel, ouvert la grande porte de la montagne et récupéré la première page du carnet.",
+          "s": "ok",
+          "l": "ouverte grâce à l'itinéraire doré",
           "sub": [
-            "Je pressens un lien possible avec les recherches sur les motifs et les pages du manuel, sans preuve pour l'instant."
+            "Je pressens un lien possible avec les recherches sur les motifs et les pages du manuel, sans preuve pour l'instant.",
+            "L'énigme de la porte, longtemps restée ouverte, a finalement été résolue en reliant les numéros de la page 49 aux motifs des autres pages.",
+            "Ce qui se trouve derrière cette porte ne doit plus être présenté comme inconnu."
           ]
         },
         {
@@ -231,6 +234,35 @@ window.CARTE = {
             "Je crois me souvenir d'une cascade ou d'une grotte dans les Contrées sauvages.",
             "Les libérations semblent cocher progressivement des cases d'une liste dans le manuel.",
             "Une case « réunion secrète » est déjà cochée, sans que je puisse identifier le lieu correspondant."
+          ]
+        },
+        {
+          "n": "Forêt de l'Est — lumière sous les arbres",
+          "d": "La lumière filtrant à travers la densité des arbres et l'ambiance tamisée me touchent particulièrement.",
+          "s": "ok",
+          "l": "lieu marquant"
+        },
+        {
+          "n": "Jardin de l'Ouest",
+          "d": "Je trouve ce jardin magnifique, très calme et relaxant ; son atmosphère évoque pour moi un jardin japonais et des cerisiers en fleurs.",
+          "s": "ok",
+          "l": "lieu marquant"
+        },
+        {
+          "n": "Confins sauvages — découvertes et expérimentations",
+          "d": "J'aime cette région pour la densité des découvertes et la possibilité d'y mettre en pratique de nombreuses mécaniques.",
+          "s": "ok",
+          "l": "lieu marquant"
+        },
+        {
+          "n": "Vieille maison des Confins sauvages",
+          "d": "Mon endroit préféré de Tunic : une petite maison intime où la musique, la lumière et la présence d'un lit me donnent véritablement le sentiment d'être chez moi.",
+          "s": "ok",
+          "l": "mon refuge",
+          "sub": [
+            "Au milieu d'un monde parfois déroutant, exigeant et hostile, je la vis comme un havre de paix.",
+            "Ce n'est pas simplement un lieu sûr : j'y ressens un vrai sentiment d'appartenance.",
+            "Je soupçonne que sa conception artistique et sonore cherche délibérément à susciter cette impression, sans disposer d'une déclaration des créateurs."
           ]
         }
       ]
@@ -353,12 +385,13 @@ window.CARTE = {
         },
         {
           "n": "Exploration après la première fin",
-          "d": "Je continue à chercher les pages manquantes, les motifs des Saintes Croix et les êtres à libérer. Mon nouvel objectif est lié à la réunion secrète et au trésor final.",
-          "s": "open",
-          "l": "en cours",
+          "d": "Après la première fin, j'ai poursuivi mes recherches : libération des vingt fées, dernière page du manuel, résolution de l'itinéraire doré, première page récupérée, puis partage du manuel avec l'Hoir.",
+          "s": "ok",
+          "l": "deuxième dénouement atteint",
           "sub": [
             "Je mets pour le moment le déchiffrement de la langue en pause.",
-            "Je garde aussi la porte de la montagne parmi mes énigmes ouvertes."
+            "Je garde aussi la porte de la montagne parmi mes énigmes ouvertes.",
+            "Le déchiffrement de l'écriture et plusieurs objets secrets restent des activités complémentaires que je pourrai reprendre plus tard."
           ]
         },
         {
@@ -376,6 +409,49 @@ window.CARTE = {
           "d": "Après être redevenu vivant sans voir le monde changer, j'ai cherché un lit. En y dormant, j'ai réussi à retrouver le jour.",
           "s": "ok",
           "l": "confirmé"
+        },
+        {
+          "n": "Vingt fées libérées",
+          "s": "ok",
+          "l": "20 sur 20",
+          "d": "J'ai trouvé et libéré les vingt fées cachées grâce aux secrets et aux Saintes Croix ; cela m'a pris de nombreuses heures.",
+          "sub": [
+            "Le grand édifice doré dont les fragments sont dispersés à travers le monde a été l'une des énigmes les plus difficiles.",
+            "Après avoir libéré les vingt fées, j'ai obtenu la dernière page du manuel."
+          ]
+        },
+        {
+          "n": "Itinéraire doré reconstitué",
+          "s": "ok",
+          "l": "énigme résolue",
+          "d": "J'ai eu un déclic devant un carré doré de la page 12 : les numéros de la grille de la page 49 renvoient aux pages du manuel (2 à 55), où apparaissent des fragments d'un même tracé.",
+          "sub": [
+            "Le manuel entier était donc aussi le support de l'itinéraire doré, et pas seulement un guide du monde.",
+            "En recomposant le parcours, j'ai découvert comment ouvrir la porte de la montagne."
+          ]
+        },
+        {
+          "n": "Première page du manuel retrouvée",
+          "s": "ok",
+          "l": "récupérée",
+          "d": "Après l'ouverture de la porte de la montagne, j'ai récupéré la première page ; elle m'a conduit à envisager de retourner auprès de l'Hoir avec le carnet complet."
+        },
+        {
+          "n": "Seconde fin — partager le manuel avec l'Hoir",
+          "s": "ok",
+          "l": "fin vécue sans combat",
+          "d": "Je suis retourné voir l'Hoir sans la réaffronter et lui ai présenté le manuel reconstitué. La confrontation violente a été évitée : le cycle de remplacement a été rompu.",
+          "sub": [
+            "Première fin vécue : je vaincs l'Hoir et prends sa place, sans mettre fin à la souffrance.",
+            "Deuxième issue choisie : transmettre le savoir plutôt que vaincre et succéder.",
+            "Je lis cette scène comme un retour à sa mémoire et comme un choix de protéger et transmettre les enseignements de la Sainte Croix ; le détail de ses souvenirs reste une interprétation."
+          ]
+        },
+        {
+          "n": "Objets secrets — collection à poursuivre",
+          "s": "open",
+          "l": "environ 5 ou 6 manquants",
+          "d": "J'ai récupéré plusieurs objets secrets supplémentaires, mais il m'en manque encore environ cinq ou six. Je compte peut-être retourner les chercher après avoir pris du recul."
         }
       ]
     },
@@ -404,11 +480,11 @@ window.CARTE = {
         },
         {
           "n": "Manuel",
-          "d": "49 pages numérotées relevées, plus une table des matières sans numéro ; certaines pages restent manquantes.",
+          "d": "Manuel suffisamment reconstitué pour être présenté à l'Hoir lors de la seconde fin ; l'itinéraire doré y était dissimulé.",
           "sub": [
             "Table des matières non numérotée en ma possession.",
-            "Pages numérotées en ma possession : de la page 3 à la page 45 incluses, puis les pages 48 à 53.",
-            "Pages non mentionnées dans mon relevé : 1–2 et 46–47. Je ne présume pas du contenu des autres pages au-delà de 53.",
+            "Ancien inventaire, avant la fin de l'exploration : pages 3–45 et 48–53.",
+            "Dans cet ancien inventaire, les pages 1–2 et 46–47 n'étaient pas encore recensées.",
             "Page des trois clés et du dispositif central",
             "Page sur les soldats",
             "Moyen de défier la mort, lié à ce qui est derrière la porte dorée",
@@ -424,10 +500,15 @@ window.CARTE = {
             "Après ma victoire sur la renarde, un message de fin m'a indiqué qu'il me manquait encore des pages ; je continue mon exploration.",
             "Une liste liée à une « réunion secrète » et à un « trésor final » semble progresser lorsque je libère des êtres trouvés via les motifs.",
             "La case « réunion secrète » est déjà cochée, mais je ne sais pas quelle action l'a validée ni si je possédais cette page avant de libérer ces êtres.",
-            "Page 11 : j'ai remarqué des points susceptibles de former une Sainte Croix ; en reproduisant ce motif à l'endroit indiqué sur la carte du manuel, j'ai fait apparaître un coffre caché."
+            "Page 11 : j'ai remarqué des points susceptibles de former une Sainte Croix ; en reproduisant ce motif à l'endroit indiqué sur la carte du manuel, j'ai fait apparaître un coffre caché.",
+            "La quatrième de couverture portait un autocollant avec mon visage, ce qui m'avait d'abord conduit à penser que ce carnet m'appartenait.",
+            "La libération des vingt fées m'a donné la dernière page ; la porte de la montagne m'a donné la première.",
+            "La grille de la page 49 renvoie aux numéros des pages 2 à 55 ; le carré doré de la page 12 a déclenché ma compréhension de l'itinéraire doré.",
+            "J'ai remis le manuel reconstitué à l'Hoir dans la seconde fin. Je pense désormais qu'il lui est lié et qu'il contribue à lui rendre son savoir, peut-être ses souvenirs.",
+            "Son auteur exact et la nature précise de la mémoire de l'Hoir ne sont pas formellement établis."
           ],
-          "s": "open",
-          "l": "pages inventoriées"
+          "s": "ok",
+          "l": "reconstitué et transmis"
         },
         {
           "n": "Épée bleue flottante",
@@ -476,6 +557,12 @@ window.CARTE = {
           "d": "Objet découvert après avoir suivi un motif suggéré par des points sur la page 11 ; le nom et le numéro exacts restent à relever.",
           "s": "ok",
           "l": "récupéré ; rôle inconnu"
+        },
+        {
+          "n": "Autres objets secrets",
+          "s": "open",
+          "l": "collection incomplète",
+          "d": "J'en ai trouvé plusieurs en poursuivant les énigmes ; je pense qu'il m'en reste cinq ou six. Leur lien éventuel avec les cases du manuel reste à vérifier."
         }
       ]
     },
@@ -575,12 +662,14 @@ window.CARTE = {
           "n": "Motifs du décor et êtres à libérer",
           "d": "J'ai compris que la disposition de certains éléments du monde peut fournir des séquences utilisables avec les Saintes Croix.",
           "s": "ok",
-          "l": "expérimenté",
+          "l": "20 fées libérées",
           "sub": [
             "Motifs remarqués dans les fleurs, la mousse, les tapis, le sol et d'autres détails.",
             "Certains motifs permettent de retrouver des êtres que j'appelle provisoirement « âmes ».",
             "Je peux les libérer dans une salle dont je situe encore mal l'emplacement.",
-            "Leur libération semble faire progresser une liste du manuel."
+            "Leur libération semble faire progresser une liste du manuel.",
+            "J'ai finalement identifié ces petits êtres comme des fées et les ai toutes libérées (20 sur 20).",
+            "La résolution des énigmes associées m'a permis d'obtenir la dernière page du manuel."
           ]
         },
         {
@@ -591,6 +680,26 @@ window.CARTE = {
           "sub": [
             "Retrouver ma forme vivante grâce aux sépultures ne suffisait pas à remettre la carte dans son état de jour.",
             "Le sommeil me permet de revenir à la version diurne du monde ; je n'ai pas encore détaillé tous les changements de chemins."
+          ]
+        },
+        {
+          "n": "L'itinéraire doré caché dans le manuel",
+          "s": "ok",
+          "l": "reconstitué",
+          "d": "Les nombres de la page 49 indiquent dans quel ordre consulter les pages du manuel, dont les décors contiennent des segments de l'itinéraire doré.",
+          "sub": [
+            "Le carré doré de la page 12 a été mon déclic.",
+            "La combinaison des fragments donne un trajet de Sainte Croix qui ouvre la porte de la montagne."
+          ]
+        },
+        {
+          "n": "Deux conclusions : succession ou transmission",
+          "s": "ok",
+          "l": "deux fins connues",
+          "d": "La première issue passe par un affrontement et me fait prendre la place de l'Hoir. Dans la seconde, partager le manuel complet me permet d'éviter ce combat et de rompre le cycle.",
+          "sub": [
+            "Mon interprétation : le jeu suggère d'abord la violence par manque d'informations, puis révèle qu'une compréhension plus profonde peut la rendre inutile pour le dénouement.",
+            "Je ne prétends pas que tous les affrontements du jeu étaient évitables."
           ]
         }
       ]
@@ -608,7 +717,8 @@ window.CARTE = {
           "d": "J'avais passé le jeu en anglais pour comparer la langue du manuel à l'anglais. Je l'ai maintenant remis en français pour plus de confort.",
           "sub": [
             "Je suppose toujours que l'écriture fictive est liée à l'anglais, mais je n'en ai pas démontré les règles.",
-            "Je privilégie actuellement les Saintes Croix, les motifs du décor et les pages manquantes."
+            "Je privilégie actuellement les Saintes Croix, les motifs du décor et les pages manquantes.",
+            "J'ai terminé la seconde fin sans avoir entièrement traduit la langue de Tunic. Je pourrai reprendre ce déchiffrement plus tard, sans en faire une priorité."
           ]
         },
         {
@@ -626,16 +736,19 @@ window.CARTE = {
         },
         {
           "n": "Page 49 — grille dorée",
-          "s": "open",
-          "l": "énigme non résolue",
-          "d": "Grille de 25 nombres disposés sur cinq lignes et cinq colonnes, accompagnée d'inscriptions en langue fictive et d'un symbole vertical central.",
+          "s": "ok",
+          "l": "fonction découverte",
+          "d": "La grille de 25 nombres était l'index de l'itinéraire doré : chaque nombre renvoie à une page du manuel portant un fragment du tracé.",
           "sub": [
             "Ligne 1 : 48, 11, 2, 6, 52",
             "Ligne 2 : 27, 21, 4, 50, 42",
             "Ligne 3 : 15, 22, 55, 31, 33",
             "Ligne 4 : 46, 28, 9, 40, 18",
             "Ligne 5 : 34, 16, 12, 39, 44",
-            "Je pressens un lien avec d'autres découvertes, mais je n'ai pas trouvé la logique."
+            "Je pressens un lien avec d'autres découvertes, mais je n'ai pas trouvé la logique.",
+            "Le carré doré découvert à la page 12 m'a donné le déclic.",
+            "Les numéros renvoient à des pages du manuel dans l'intervalle 2–55.",
+            "J'ai reconstitué l'itinéraire et ouvert la porte de la montagne."
           ]
         }
       ]
@@ -683,8 +796,8 @@ window.CARTE = {
         },
         {
           "n": "Renarde blanche",
-          "s": "open",
-          "l": "identité inconnue",
+          "s": "ok",
+          "l": "l'Hoir ; cycle rompu",
           "sub": [
             "Vue au-dessus des batraciens",
             "Statue géante dans le désert",
@@ -698,7 +811,11 @@ window.CARTE = {
             "J'avais interprété des pages du manuel comme l'annonce de confrontations répétées jusqu'à ce que je prenne sa place ; ce remplacement a désormais eu lieu.",
             "Cette nouvelle lecture remet en question sa conviction initiale qu'il devait simplement la libérer",
             "Je l'ai vaincue, puis j'ai été enfermé à sa place lors de la première conclusion.",
-            "Nouvelle interrogation : était-elle elle-même une ancienne Avatar, victime du même cycle avant moi ? Aucune preuve de son origine ni de ses intentions."
+            "Nouvelle interrogation : était-elle elle-même une ancienne Avatar, victime du même cycle avant moi ? Aucune preuve de son origine ni de ses intentions.",
+            "Lors de la deuxième fin, je suis revenu lui présenter le manuel complet sans chercher à l'affronter.",
+            "Je l'ai vue renoncer à la confrontation. J'ai éprouvé un immense bonheur de pouvoir éviter un nouveau combat et un nouveau remplacement.",
+            "J'interprète ce partage comme la possibilité pour elle de retrouver une mémoire ou un savoir perdu ; ce mécanisme précis n'est pas entièrement explicité.",
+            "Je continue à m'interroger sur son histoire personnelle, sur les êtres qui l'ont précédée et sur l'origine du cycle."
           ]
         },
         {
@@ -766,14 +883,15 @@ window.CARTE = {
           ]
         },
         {
-          "n": "Petits êtres libérés grâce aux motifs",
-          "d": "J'en récupère en découvrant et en reproduisant des motifs de Saintes Croix cachés dans le décor.",
-          "s": "open",
-          "l": "nature inconnue",
+          "n": "Les vingt fées libérées",
+          "d": "Après avoir découvert et reproduit les motifs cachés des Saintes Croix, j'ai libéré les vingt fées et reçu la dernière page du manuel.",
+          "s": "ok",
+          "l": "20 sur 20",
           "sub": [
             "Je les appelle « âmes », mais je ne suis pas entièrement sûr de leur nom ni de leur nature.",
             "Je les libère dans une salle que je crois située derrière une cascade.",
-            "Leur libération semble liée à une liste du manuel sur une réunion secrète et un trésor final."
+            "Leur libération semble liée à une liste du manuel sur une réunion secrète et un trésor final.",
+            "La nature exacte de ces créatures au-delà de leur nom reste une question possible, mais leur nombre et la récompense sont désormais établis."
           ]
         }
       ]
@@ -928,8 +1046,8 @@ window.CARTE = {
           "h": "H14",
           "n": "Les pages du manuel sont les fragments de mon propre carnet",
           "s": "open",
-          "l": "à vérifier",
-          "d": "Hypothèse d'une aventure antérieure dont les pages récupérées préserveraient les souvenirs"
+          "l": "reformulée après la deuxième fin",
+          "d": "L'autocollant de la quatrième de couverture montrait ma tête, d'où mon intuition initiale. Mais, après avoir remis le carnet à l'Hoir pour éviter le combat, je pense désormais que ce savoir lui était lié. Je ne connais toujours pas avec certitude son auteur ni son propriétaire originel."
         },
         {
           "h": "H15",
@@ -1011,9 +1129,9 @@ window.CARTE = {
         {
           "h": "H26",
           "n": "Je suis amené à affronter la renarde et à prendre sa place",
-          "s": "open",
-          "l": "remplacement vécu ; cycle obscur",
-          "d": "Le manuel parle explicitement de confrontations répétées d'innombrables fois. J'ai maintenant vaincu la renarde et me suis retrouvé enfermé à sa place. Le mécanisme du cycle au-delà de mon expérience reste à comprendre."
+          "s": "ok",
+          "l": "première fin confirmée, cycle brisé ensuite",
+          "d": "La première fin m'a effectivement fait vaincre l'Hoir et prendre sa place. Mais la seconde fin révèle que cette succession n'est pas inévitable : en lui partageant le manuel complet, je peux rompre le cycle sans la combattre."
         },
         {
           "h": "H27",
@@ -1041,7 +1159,10 @@ window.CARTE = {
           "n": "La renarde pourrait être une précédente Avatar",
           "d": "Puisque je l'ai vaincue et me suis retrouvé enfermé à sa place, je me demande si elle n'avait pas elle-même succédé à un autre Avatar. Elle pourrait être à la fois victime du cycle et participante à sa perpétuation.",
           "s": "open",
-          "l": "nouvelle hypothèse"
+          "l": "statut de l'Hoir clarifié ; origine inconnue",
+          "sub": [
+            "Le remplacement vécu lors de ma première fin étaye le principe de succession, mais ne démontre pas que l'Hoir était autrefois une Avatar identique à moi."
+          ]
         },
         {
           "h": "H31",
@@ -1053,9 +1174,9 @@ window.CARTE = {
         {
           "h": "H32",
           "n": "Les âmes, la réunion secrète et la porte de la montagne seraient liées",
-          "d": "Je pressens un lien entre les motifs des Saintes Croix, la liste des êtres à libérer, le trésor final et l'énigme de la porte de la montagne ; ce rapprochement reste une intuition.",
+          "d": "J'ai compris que libérer les vingt fées me donnait la dernière page du manuel et que la porte de la montagne s'ouvrait grâce à l'itinéraire doré reconstitué. Certaines associations pressenties étaient donc pertinentes, même si je n'ai pas établi tous les liens avec la réunion secrète.",
           "s": "open",
-          "l": "lien supposé"
+          "l": "liens partiellement éclaircis"
         },
         {
           "h": "H33",
@@ -1063,6 +1184,13 @@ window.CARTE = {
           "d": "Je me demande si les objets secrets, comme celui découvert grâce à la page 11, participent au remplissage de certaines cases du manuel. Je ne connais pas l'état exact des cases avant le ramassage et ne peux donc pas confirmer de lien.",
           "s": "open",
           "l": "hypothèse à tester"
+        },
+        {
+          "h": "H34",
+          "n": "Le manuel permettrait à l'Hoir de retrouver son savoir ou sa mémoire",
+          "s": "open",
+          "l": "interprétation du dénouement",
+          "d": "Lorsque je présente le carnet complet à l'Hoir, elle n'a plus besoin de me combattre. J'ai vécu cette scène comme un retour à sa mémoire ; le jeu établit l'issue pacifique, mais je distingue mon interprétation de son mécanisme exact."
         }
       ]
     },
@@ -1143,13 +1271,15 @@ window.CARTE = {
         },
         {
           "n": "Le manuel m'appartient-il ?",
-          "d": "Et si ces pages provenaient d'un carnet que j'avais rédigé avant une perte de mémoire ?"
+          "d": "La quatrième de couverture porte mon portrait, mais dans la seconde fin je remets le manuel à l'Hoir et j'ai le sentiment qu'il lui appartient ou la concerne. Sa véritable provenance et son auteur restent incertains.",
+          "s": "open",
+          "l": "interprétation révisée"
         },
         {
           "n": "Ma première fin raconte-t-elle toute l'histoire ?",
-          "d": "Non : j'ai obtenu une conclusion après le combat, mais il me manque encore des pages du manuel. Je veux comprendre ce qui se cache derrière cette succession.",
+          "d": "Non. J'ai libéré les vingt fées, reconstitué l'itinéraire doré, complété le manuel, puis atteint la seconde fin en le partageant avec l'Hoir sans nouveau combat.",
           "s": "ok",
-          "l": "première conclusion obtenue"
+          "l": "seconde fin découverte"
         },
         {
           "n": "Pourquoi la renarde attaque-t-elle après le dépôt des trois clés ?",
@@ -1199,7 +1329,9 @@ window.CARTE = {
         },
         {
           "n": "Pourquoi suis-je condamné à remplacer la renarde ?",
-          "d": "Je l'ai vaincue et me suis retrouvé enfermé à sa place. Les pages 7–8 évoquent d'innombrables confrontations ; j'ignore qui a instauré ce cycle et dans quel but."
+          "d": "Le remplacement est la conséquence de la première issue, pas une obligation : j'ai découvert que le partage du manuel complet permettait de briser cette succession.",
+          "s": "ok",
+          "l": "fatalité évitée"
         },
         {
           "n": "Mon peuple est-il mort ?",
@@ -1215,7 +1347,9 @@ window.CARTE = {
         },
         {
           "n": "À quoi sert la grille dorée de la page 49 ?",
-          "d": "Les 25 nombres et les inscriptions semblent appeler une connexion avec d'autres indices ; aucun lien confirmé à ce stade."
+          "d": "Les nombres indexent des fragments de l'itinéraire doré cachés dans les pages du manuel. Le déclic est venu de la page 12.",
+          "s": "ok",
+          "l": "résolu"
         },
         {
           "n": "À quoi sert la couronne dorée de la forêt de l'Est ?",
@@ -1223,7 +1357,9 @@ window.CARTE = {
         },
         {
           "n": "Qui est désigné par « l'hoir » dans les pages 7–8 ?",
-          "d": "« Hoir » signifie « héritier » en ancien français ; je ne sais pas si ce titre désigne la renarde, l'Avatar ou leur relation."
+          "d": "L'Hoir est le personnage de la grande renarde que j'ai affrontée lors de la première fin, puis retrouvée pacifiquement dans la seconde. Le statut et le fonctionnement complet du cycle gardent des zones d'ombre.",
+          "s": "ok",
+          "l": "identifiée dans le dénouement"
         },
         {
           "n": "Où se trouve exactement la réunion secrète ?",
@@ -1231,15 +1367,19 @@ window.CARTE = {
         },
         {
           "n": "Que sont les êtres que je libère ?",
-          "d": "Je les appelle provisoirement « âmes ». Quel est leur lien avec la salle derrière la cascade, la réunion secrète et le trésor final ?"
+          "d": "Je les ai identifiés comme vingt fées ; les libérer toutes m'a permis de recevoir la dernière page du manuel. Leur nature profonde reste éventuellement à comprendre.",
+          "s": "ok",
+          "l": "vingt fées libérées"
         },
         {
           "n": "Que cache la porte de la montagne ?",
-          "d": "Je n'ai pas résolu son code. Je soupçonne un rapport avec d'autres motifs et des pages du manuel, mais je ne veux pas présumer de la solution."
+          "d": "J'ai ouvert la porte grâce à l'itinéraire doré et récupéré la première page du manuel.",
+          "s": "ok",
+          "l": "résolu"
         },
         {
           "n": "La renarde a-t-elle elle-même remplacé une autre Avatar ?",
-          "d": "Mon propre emprisonnement après sa défaite me fait envisager qu'elle ait occupé avant moi un rôle transmis de la même manière."
+          "d": "La première fin établit qu'un remplacement est possible. Elle ne suffit pas à déterminer avec certitude l'identité ou le passé de l'Hoir ni de ses éventuels prédécesseurs."
         },
         {
           "n": "Comment revenir au monde de jour ?",
@@ -1250,6 +1390,18 @@ window.CARTE = {
         {
           "n": "Les objets secrets font-ils avancer les cases du manuel ?",
           "d": "Je vais garder une capture d'écran de l'état des cases, puis comparer avant et après ma prochaine découverte d'un objet semblable. Pour celui de la page 11, l'état précédent est inconnu."
+        },
+        {
+          "n": "Qui a rédigé le manuel et à qui appartenait-il à l'origine ?",
+          "s": "open",
+          "l": "provenance incertaine",
+          "d": "Mon portrait figure sur la couverture, tandis que je remets finalement le manuel à l'Hoir. Le savoir transmis est essentiel, mais la provenance exacte n'a pas été établie."
+        },
+        {
+          "n": "Que signifient tous les détails historiques de la civilisation disparue ?",
+          "s": "open",
+          "l": "approfondissement possible",
+          "d": "J'ai compris la trame du cycle et de sa rupture, mais je ne prétends pas avoir éclairci tous les secrets des capsules, des grands renards et de la civilisation ancienne."
         }
       ]
     },
@@ -1368,6 +1520,51 @@ window.CARTE = {
           "d": "Après avoir retrouvé mon corps sans faire revenir le jour, j'ai imaginé que dormir pouvait modifier l'état du monde. J'ai essayé : ça marche !",
           "s": "ok",
           "l": "déclic"
+        },
+        {
+          "n": "Les vingt fées et la patience des énigmes",
+          "d": "J'ai passé des heures à libérer les vingt fées ; certains codes, surtout l'édifice doré réparti en morceaux, ont été particulièrement difficiles. Leur résolution m'a donné un sentiment d'accomplissement."
+        },
+        {
+          "n": "Déclic de l'itinéraire doré",
+          "d": "Devant le carré doré de la page 12, j'ai eu un véritable Eurêka : le manuel, avec ses numéros et ses fragments, contenait depuis le début l'itinéraire doré."
+        },
+        {
+          "n": "Seconde fin : le bonheur de ne pas combattre",
+          "d": "J'ai ressenti un immense bonheur et un profond soulagement de pouvoir échapper à la cruauté de la première fin, et surtout de ne pas avoir à affronter à nouveau l'Hoir.",
+          "s": "ok",
+          "l": "dénouement apaisé"
+        },
+        {
+          "n": "La vieille maison — je m'y sens chez moi",
+          "d": "C'est probablement mon endroit préféré de Tunic. La musique exceptionnelle, les jeux de lumière, le lit et l'intimité de la pièce m'y donnent vraiment le sentiment d'être chez moi : mon havre de paix dans le tumulte.",
+          "s": "ok",
+          "l": "lieu préféré",
+          "sub": [
+            "Je pense que le game design de cette pièce cherche peut-être volontairement à produire ce sentiment d'appartenance.",
+            "Je ne la considère pas seulement comme une pièce sûre ou agréable, mais comme mon foyer dans cet univers."
+          ]
+        },
+        {
+          "n": "Ambiances qui me restent en mémoire",
+          "d": "J'ai particulièrement aimé la lumière tamisée sous les arbres de la forêt de l'Est, le calme japonisant du jardin de l'Ouest et la richesse de découvertes des Confins sauvages. Les montagnes du Nord m'ont au contraire profondément mis mal à l'aise."
+        },
+        {
+          "n": "Tunic — beauté de la complexité et de la simplicité",
+          "d": "J'ai excessivement adoré Tunic : ses musiques, ses lumières, son atmosphère, son histoire et la façon dont toutes ses énigmes s'imbriquent. Ce monde est à mes yeux aussi complexe que simple.",
+          "sub": [
+            "Mon interprétation : le manque d'informations encourage d'abord la voie du combat, puis la connaissance permet de comprendre qu'on pouvait éviter la violence du dénouement.",
+            "Ce qui me fascine, c'est la manière dont le jeu transforme mon regard sur un monde qui avait déjà ses secrets sous mes yeux."
+          ]
+        },
+        {
+          "n": "Après Tunic — bonheur et mélancolie",
+          "d": "J'éprouve une satisfaction mêlée d'incertitude : j'ai le sentiment d'avoir terminé le jeu sans être sûr d'en avoir compris tous les détails. Je ressens aussi une mélancolie à l'idée de quitter cet univers.",
+          "sub": [
+            "Tunic m'a profondément touché, mais je ne sais pas encore s'il me marquera autant qu'Outer Wilds.",
+            "J'y ai joué pendant des heures sans parvenir à doser, tellement j'étais absorbé : j'ai besoin de temps pour digérer cette aventure.",
+            "Il me reste quelques objets secrets et peut-être la traduction de la langue, mais je ne veux pas en faire ma priorité immédiate."
+          ]
         }
       ]
     }
